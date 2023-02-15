@@ -1,0 +1,241 @@
+(0:x0).Name=EA 0->(0:x0).id=3 0
+(1:y0).id=8 2->(0:x0).id=3 0
+(1:y0).id=7 2->(0:x0).id=3 0
+(1:y0).id=8 1->(0:x0).id=3 0
+(1:y0).id=7 1->(0:x0).id=3 0
+(1:y0).Name=F20 0->(0:x0).id=3 0
+(1:y0).Genre=Soccer 0->(0:x0).id=3 0
+(1:y0).Year=2019 0->(0:x0).id=3 0
+(1:y1).id=9 2->(0:x0).id=3 0
+(1:y1).id=8 2->(0:x0).id=3 0
+(1:y1).id=9 1->(0:x0).id=3 0
+(1:y1).id=8 1->(0:x0).id=3 0
+(1:y1).Name=F21 0.38->(0:x0).id=3 0
+(1:y1).Name=F20 0.38->(0:x0).id=3 0
+(1:y1).Genre=Soccer 0->(0:x0).id=3 0
+(0:x0).id=3 0->(0:x0).Name=EA 0
+(1:y0).id=8 2->(0:x0).Name=EA 0
+(1:y0).id=7 2->(0:x0).Name=EA 0
+(1:y0).id=8 1->(0:x0).Name=EA 0
+(1:y0).id=7 1->(0:x0).Name=EA 0
+(1:y0).Name=F20 0->(0:x0).Name=EA 0
+(1:y0).Genre=Soccer 0->(0:x0).Name=EA 0
+(1:y0).Year=2019 0->(0:x0).Name=EA 0
+(1:y1).id=9 2->(0:x0).Name=EA 0
+(1:y1).id=8 2->(0:x0).Name=EA 0
+(1:y1).id=9 1->(0:x0).Name=EA 0
+(1:y1).id=8 1->(0:x0).Name=EA 0
+(1:y1).Name=F21 0.38->(0:x0).Name=EA 0
+(1:y1).Name=F20 0.38->(0:x0).Name=EA 0
+(1:y1).Genre=Soccer 0->(0:x0).Name=EA 0
+(1:y0).Price=55 0->(1:y0).id=7 0
+(0:x0).id=3 0->(1:y0).Name=F20 0
+(0:x0).Name=EA 0->(1:y0).Name=F20 0
+(1:y0).id=8 2->(1:y0).Name=F20 0
+(1:y0).id=7 2->(1:y0).Name=F20 0
+(1:y0).id=8 1->(1:y0).Name=F20 0
+(1:y0).id=7 1->(1:y0).Name=F20 0
+(1:y0).Genre=Soccer 0->(1:y0).Name=F20 0
+(1:y0).Year=2019 0->(1:y0).Name=F20 0
+(1:y1).id=9 2->(1:y0).Name=F20 0
+(1:y1).id=8 2->(1:y0).Name=F20 0
+(1:y1).id=9 1->(1:y0).Name=F20 0
+(1:y1).id=8 1->(1:y0).Name=F20 0
+(1:y1).Name=F21 0.38->(1:y0).Name=F20 0
+(1:y1).Name=F20 0.38->(1:y0).Name=F20 0
+(1:y1).Genre=Soccer 0->(1:y0).Name=F20 0
+(0:x0).id=3 0->(1:y0).Genre=Soccer 0
+(0:x0).Name=EA 0->(1:y0).Genre=Soccer 0
+(1:y0).id=8 2->(1:y0).Genre=Soccer 0
+(1:y0).id=7 2->(1:y0).Genre=Soccer 0
+(1:y0).id=8 1->(1:y0).Genre=Soccer 0
+(1:y0).id=7 1->(1:y0).Genre=Soccer 0
+(1:y0).Name=F20 0->(1:y0).Genre=Soccer 0
+(1:y0).Year=2019 0->(1:y0).Genre=Soccer 0
+(1:y1).id=9 2->(1:y0).Genre=Soccer 0
+(1:y1).id=8 2->(1:y0).Genre=Soccer 0
+(1:y1).id=9 1->(1:y0).Genre=Soccer 0
+(1:y1).id=8 1->(1:y0).Genre=Soccer 0
+(1:y1).Name=F21 0.38->(1:y0).Genre=Soccer 0
+(1:y1).Name=F20 0.38->(1:y0).Genre=Soccer 0
+(1:y1).Genre=Soccer 0->(1:y0).Genre=Soccer 0
+(0:x0).id=3 0->(1:y0).Year=2019 0
+(0:x0).Name=EA 0->(1:y0).Year=2019 0
+(1:y0).id=8 2->(1:y0).Year=2019 0
+(1:y0).id=7 2->(1:y0).Year=2019 0
+(1:y0).id=8 1->(1:y0).Year=2019 0
+(1:y0).id=7 1->(1:y0).Year=2019 0
+(1:y0).Name=F20 0->(1:y0).Year=2019 0
+(1:y0).Genre=Soccer 0->(1:y0).Year=2019 0
+(1:y1).id=9 2->(1:y0).Year=2019 0
+(1:y1).id=8 2->(1:y0).Year=2019 0
+(1:y1).id=9 1->(1:y0).Year=2019 0
+(1:y1).id=8 1->(1:y0).Year=2019 0
+(1:y1).Name=F21 0.38->(1:y0).Year=2019 0
+(1:y1).Name=F20 0.38->(1:y0).Year=2019 0
+(1:y1).Genre=Soccer 0->(1:y0).Year=2019 0
+(1:y1).Year=2020 0->(1:y1).id=9 0
+(1:y1).Year=2020 0->(1:y1).Name=F21 0.13
+(0:x0).id=3 0->(1:y1).Genre=Soccer 0
+(0:x0).Name=EA 0->(1:y1).Genre=Soccer 0
+(1:y0).id=8 2->(1:y1).Genre=Soccer 0
+(1:y0).id=7 2->(1:y1).Genre=Soccer 0
+(1:y0).id=8 1->(1:y1).Genre=Soccer 0
+(1:y0).id=7 1->(1:y1).Genre=Soccer 0
+(1:y0).Name=F20 0->(1:y1).Genre=Soccer 0
+(1:y0).Genre=Soccer 0->(1:y1).Genre=Soccer 0
+(1:y0).Year=2019 0->(1:y1).Genre=Soccer 0
+(1:y1).id=9 2->(1:y1).Genre=Soccer 0
+(1:y1).id=8 2->(1:y1).Genre=Soccer 0
+(1:y1).id=9 1->(1:y1).Genre=Soccer 0
+(1:y1).id=8 1->(1:y1).Genre=Soccer 0
+(1:y1).Name=F21 0.38->(1:y1).Genre=Soccer 0
+(1:y1).Name=F20 0.38->(1:y1).Genre=Soccer 0
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).Name=EA 0 None->(0:x0).id=3 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Name=F20 0 None->(0:x0).id=3 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Genre=Soccer 0 None->(0:x0).id=3 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Year=2019 0 None->(0:x0).id=3 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y1).Genre=Soccer 0 None->(0:x0).id=3 0
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).id=3 0 None->(0:x0).Name=EA 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Name=F20 0 None->(0:x0).Name=EA 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Genre=Soccer 0 None->(0:x0).Name=EA 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Year=2019 0 None->(0:x0).Name=EA 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y1).Genre=Soccer 0 None->(0:x0).Name=EA 0
+(0:x0).id=3 0,(1:y0).Price=55 0 None->(1:y0).id=7 0
+(0:x0).Name=EA 0,(1:y0).Price=55 0 None->(1:y0).id=7 0
+(1:y0).Name=F20 0,(1:y0).Price=55 0 None->(1:y0).id=7 0
+(1:y0).Genre=Soccer 0,(1:y0).Price=55 0 None->(1:y0).id=7 0
+(1:y0).Year=2019 0,(1:y0).Price=55 0 None->(1:y0).id=7 0
+(1:y1).id=9 2,(1:y0).Price=55 0 None->(1:y0).id=7 0
+(1:y1).Name=F21 0.38,(1:y0).Price=55 0 None->(1:y0).id=7 0
+(1:y1).Genre=Soccer 0,(1:y0).Price=55 0 None->(1:y0).id=7 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Price=55 0 None->(1:y0).id=7 0
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).id=3 0 None->(1:y0).Name=F20 0
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).Name=EA 0 None->(1:y0).Name=F20 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Genre=Soccer 0 None->(1:y0).Name=F20 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Year=2019 0 None->(1:y0).Name=F20 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y1).Genre=Soccer 0 None->(1:y0).Name=F20 0
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).id=3 0 None->(1:y0).Genre=Soccer 0
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).Name=EA 0 None->(1:y0).Genre=Soccer 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Name=F20 0 None->(1:y0).Genre=Soccer 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Year=2019 0 None->(1:y0).Genre=Soccer 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y1).Genre=Soccer 0 None->(1:y0).Genre=Soccer 0
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).id=3 0 None->(1:y0).Year=2019 0
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).Name=EA 0 None->(1:y0).Year=2019 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Name=F20 0 None->(1:y0).Year=2019 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Genre=Soccer 0 None->(1:y0).Year=2019 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y1).Genre=Soccer 0 None->(1:y0).Year=2019 0
+(0:x0).id=3 0,(1:y0).id=7 0 None->(1:y0).Price=55 0
+(0:x0).Name=EA 0,(1:y0).id=7 0 None->(1:y0).Price=55 0
+(1:y0).Name=F20 0,(1:y0).id=7 0 None->(1:y0).Price=55 0
+(1:y0).Genre=Soccer 0,(1:y0).id=7 0 None->(1:y0).Price=55 0
+(1:y0).Year=2019 0,(1:y0).id=7 0 None->(1:y0).Price=55 0
+(1:y1).id=9 2,(1:y0).id=7 0 None->(1:y0).Price=55 0
+(1:y1).Name=F21 0.38,(1:y0).id=7 0 None->(1:y0).Price=55 0
+(1:y1).Genre=Soccer 0,(1:y0).id=7 0 None->(1:y0).Price=55 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).id=7 0 None->(1:y0).Price=55 0
+(0:x0).id=3 0,(1:y1).Name=F21 0.13 None->(1:y1).id=9 0
+(0:x0).Name=EA 0,(1:y1).Name=F21 0.13 None->(1:y1).id=9 0
+(1:y0).id=8 2,(1:y1).Name=F21 0.13 None->(1:y1).id=9 0
+(1:y0).Name=F20 0,(1:y1).Name=F21 0.13 None->(1:y1).id=9 0
+(1:y0).Genre=Soccer 0,(1:y1).Name=F21 0.13 None->(1:y1).id=9 0
+(1:y0).Year=2019 0,(1:y1).Name=F21 0.13 None->(1:y1).id=9 0
+(1:y1).Genre=Soccer 0,(1:y1).Name=F21 0.13 None->(1:y1).id=9 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y1).Name=F21 0.13 None->(1:y1).id=9 0
+(0:x0).id=3 0,(1:y1).Year=2020 0 None->(1:y1).id=9 0
+(0:x0).Name=EA 0,(1:y1).Year=2020 0 None->(1:y1).id=9 0
+(1:y0).id=8 2,(1:y1).Year=2020 0 None->(1:y1).id=9 0
+(1:y0).Name=F20 0,(1:y1).Year=2020 0 None->(1:y1).id=9 0
+(1:y0).Genre=Soccer 0,(1:y1).Year=2020 0 None->(1:y1).id=9 0
+(1:y0).Year=2019 0,(1:y1).Year=2020 0 None->(1:y1).id=9 0
+(1:y1).Name=F21 0.38,(1:y1).Year=2020 0 None->(1:y1).id=9 0
+(1:y1).Genre=Soccer 0,(1:y1).Year=2020 0 None->(1:y1).id=9 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y1).Year=2020 0 None->(1:y1).id=9 0
+(0:x0).id=3 0,(1:y1).id=9 0 None->(1:y1).Name=F21 0.13
+(0:x0).Name=EA 0,(1:y1).id=9 0 None->(1:y1).Name=F21 0.13
+(1:y0).id=8 2,(1:y1).id=9 0 None->(1:y1).Name=F21 0.13
+(1:y0).Name=F20 0,(1:y1).id=9 0 None->(1:y1).Name=F21 0.13
+(1:y0).Genre=Soccer 0,(1:y1).id=9 0 None->(1:y1).Name=F21 0.13
+(1:y0).Year=2019 0,(1:y1).id=9 0 None->(1:y1).Name=F21 0.13
+(1:y1).Genre=Soccer 0,(1:y1).id=9 0 None->(1:y1).Name=F21 0.13
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y1).id=9 0 None->(1:y1).Name=F21 0.13
+(0:x0).id=3 0,(1:y1).Year=2020 0 None->(1:y1).Name=F21 0.13
+(0:x0).Name=EA 0,(1:y1).Year=2020 0 None->(1:y1).Name=F21 0.13
+(1:y0).id=8 2,(1:y1).Year=2020 0 None->(1:y1).Name=F21 0.13
+(1:y0).Name=F20 0,(1:y1).Year=2020 0 None->(1:y1).Name=F21 0.13
+(1:y0).Genre=Soccer 0,(1:y1).Year=2020 0 None->(1:y1).Name=F21 0.13
+(1:y0).Year=2019 0,(1:y1).Year=2020 0 None->(1:y1).Name=F21 0.13
+(1:y1).id=9 2,(1:y1).Year=2020 0 None->(1:y1).Name=F21 0.13
+(1:y1).Genre=Soccer 0,(1:y1).Year=2020 0 None->(1:y1).Name=F21 0.13
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y1).Year=2020 0 None->(1:y1).Name=F21 0.13
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).id=3 0 None->(1:y1).Genre=Soccer 0
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).Name=EA 0 None->(1:y1).Genre=Soccer 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Name=F20 0 None->(1:y1).Genre=Soccer 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Genre=Soccer 0 None->(1:y1).Genre=Soccer 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Year=2019 0 None->(1:y1).Genre=Soccer 0
+(0:x0).id=3 0,(1:y1).id=9 0 None->(1:y1).Year=2020 0
+(0:x0).Name=EA 0,(1:y1).id=9 0 None->(1:y1).Year=2020 0
+(1:y0).id=8 2,(1:y1).id=9 0 None->(1:y1).Year=2020 0
+(1:y0).Name=F20 0,(1:y1).id=9 0 None->(1:y1).Year=2020 0
+(1:y0).Genre=Soccer 0,(1:y1).id=9 0 None->(1:y1).Year=2020 0
+(1:y0).Year=2019 0,(1:y1).id=9 0 None->(1:y1).Year=2020 0
+(1:y1).Name=F21 0.38,(1:y1).id=9 0 None->(1:y1).Year=2020 0
+(1:y1).Genre=Soccer 0,(1:y1).id=9 0 None->(1:y1).Year=2020 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y1).id=9 0 None->(1:y1).Year=2020 0
+(0:x0).id=3 0,(1:y1).Name=F21 0.13 None->(1:y1).Year=2020 0
+(0:x0).Name=EA 0,(1:y1).Name=F21 0.13 None->(1:y1).Year=2020 0
+(1:y0).id=8 2,(1:y1).Name=F21 0.13 None->(1:y1).Year=2020 0
+(1:y0).Name=F20 0,(1:y1).Name=F21 0.13 None->(1:y1).Year=2020 0
+(1:y0).Genre=Soccer 0,(1:y1).Name=F21 0.13 None->(1:y1).Year=2020 0
+(1:y0).Year=2019 0,(1:y1).Name=F21 0.13 None->(1:y1).Year=2020 0
+(1:y1).id=9 2,(1:y1).Name=F21 0.13 None->(1:y1).Year=2020 0
+(1:y1).Genre=Soccer 0,(1:y1).Name=F21 0.13 None->(1:y1).Year=2020 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y1).Name=F21 0.13 None->(1:y1).Year=2020 0
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).id=3 0 None,(1:y0).Price=55 0 None->(1:y0).id=7 0
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).Name=EA 0 None,(1:y0).Price=55 0 None->(1:y0).id=7 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Name=F20 0 None,(1:y0).Price=55 0 None->(1:y0).id=7 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Genre=Soccer 0 None,(1:y0).Price=55 0 None->(1:y0).id=7 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Year=2019 0 None,(1:y0).Price=55 0 None->(1:y0).id=7 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y1).Genre=Soccer 0 None,(1:y0).Price=55 0 None->(1:y0).id=7 0
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).id=3 0 None,(1:y0).id=7 0 None->(1:y0).Price=55 0
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).Name=EA 0 None,(1:y0).id=7 0 None->(1:y0).Price=55 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Name=F20 0 None,(1:y0).id=7 0 None->(1:y0).Price=55 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Genre=Soccer 0 None,(1:y0).id=7 0 None->(1:y0).Price=55 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Year=2019 0 None,(1:y0).id=7 0 None->(1:y0).Price=55 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y1).Genre=Soccer 0 None,(1:y0).id=7 0 None->(1:y0).Price=55 0
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).id=3 0 None,(1:y1).Name=F21 0.13 None->(1:y1).id=9 0
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).Name=EA 0 None,(1:y1).Name=F21 0.13 None->(1:y1).id=9 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Name=F20 0 None,(1:y1).Name=F21 0.13 None->(1:y1).id=9 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Genre=Soccer 0 None,(1:y1).Name=F21 0.13 None->(1:y1).id=9 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Year=2019 0 None,(1:y1).Name=F21 0.13 None->(1:y1).id=9 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y1).Genre=Soccer 0 None,(1:y1).Name=F21 0.13 None->(1:y1).id=9 0
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).id=3 0 None,(1:y1).Year=2020 0 None->(1:y1).id=9 0
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).Name=EA 0 None,(1:y1).Year=2020 0 None->(1:y1).id=9 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Name=F20 0 None,(1:y1).Year=2020 0 None->(1:y1).id=9 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Genre=Soccer 0 None,(1:y1).Year=2020 0 None->(1:y1).id=9 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Year=2019 0 None,(1:y1).Year=2020 0 None->(1:y1).id=9 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y1).Genre=Soccer 0 None,(1:y1).Year=2020 0 None->(1:y1).id=9 0
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).id=3 0 None,(1:y1).id=9 0 None->(1:y1).Name=F21 0.13
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).Name=EA 0 None,(1:y1).id=9 0 None->(1:y1).Name=F21 0.13
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Name=F20 0 None,(1:y1).id=9 0 None->(1:y1).Name=F21 0.13
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Genre=Soccer 0 None,(1:y1).id=9 0 None->(1:y1).Name=F21 0.13
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Year=2019 0 None,(1:y1).id=9 0 None->(1:y1).Name=F21 0.13
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y1).Genre=Soccer 0 None,(1:y1).id=9 0 None->(1:y1).Name=F21 0.13
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).id=3 0 None,(1:y1).Year=2020 0 None->(1:y1).Name=F21 0.13
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).Name=EA 0 None,(1:y1).Year=2020 0 None->(1:y1).Name=F21 0.13
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Name=F20 0 None,(1:y1).Year=2020 0 None->(1:y1).Name=F21 0.13
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Genre=Soccer 0 None,(1:y1).Year=2020 0 None->(1:y1).Name=F21 0.13
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Year=2019 0 None,(1:y1).Year=2020 0 None->(1:y1).Name=F21 0.13
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y1).Genre=Soccer 0 None,(1:y1).Year=2020 0 None->(1:y1).Name=F21 0.13
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).id=3 0 None,(1:y1).id=9 0 None->(1:y1).Year=2020 0
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).Name=EA 0 None,(1:y1).id=9 0 None->(1:y1).Year=2020 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Name=F20 0 None,(1:y1).id=9 0 None->(1:y1).Year=2020 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Genre=Soccer 0 None,(1:y1).id=9 0 None->(1:y1).Year=2020 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Year=2019 0 None,(1:y1).id=9 0 None->(1:y1).Year=2020 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y1).Genre=Soccer 0 None,(1:y1).id=9 0 None->(1:y1).Year=2020 0
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).id=3 0 None,(1:y1).Name=F21 0.13 None->(1:y1).Year=2020 0
+(1:y1).Genre and (1:y0).Genre 0.0,(0:x0).Name=EA 0 None,(1:y1).Name=F21 0.13 None->(1:y1).Year=2020 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Name=F20 0 None,(1:y1).Name=F21 0.13 None->(1:y1).Year=2020 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Genre=Soccer 0 None,(1:y1).Name=F21 0.13 None->(1:y1).Year=2020 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y0).Year=2019 0 None,(1:y1).Name=F21 0.13 None->(1:y1).Year=2020 0
+(1:y1).Genre and (1:y0).Genre 0.0,(1:y1).Genre=Soccer 0 None,(1:y1).Name=F21 0.13 None->(1:y1).Year=2020 0

@@ -1,0 +1,36 @@
+{x0.Name=GL} -> y0.Genre=Racing
+{x0.Name=GL} -> y1.Genre=2018
+{x0.Name=EA} -> y0.Year=2019
+{y0.Genre=Racing} -> y1.Name=AF11
+{y0.Genre=Racing} -> y1.Year=Racing
+{y0.Genre=Soccer} -> y1.Year=Soccer
+{y1.Genre=2018} -> y0.Name=AF9
+{y1.Genre=2018} -> y0.Price=50
+{y1.Genre=2018} -> y0.Year=2018
+{y1.Genre=2019} -> y0.Name=F20
+{y1.Genre=2019} -> y0.Name=y1.Name
+{y1.Genre=2020} -> y0.Name=F20
+{y0.Name=AF9} -> y1.Year=Racing
+{y0.Name=F20} -> y1.Year=Soccer
+{y1.Name=AF11} -> y0.Price=50
+{y1.Name=AF11} -> y0.Year=2018
+{y1.Name=F20} -> y0.Genre=Soccer
+{y1.Name=F20} -> y0.Price=55
+{y1.Name=F21} -> y0.Genre=Soccer
+{y0.Name=y1.Name} -> y0.Price=55
+{y0.Price=50} -> y1.Year=Racing
+{y0.Price=55} -> y1.Year=Soccer
+{y0.Price=60} -> y1.Genre=2020
+{y0.Price=60} -> y1.Name=F21
+{y0.Price=60} -> y1.Year=Soccer
+{y0.Year=2019} -> x0.Name=EA
+{y1.Year=Soccer} -> x0.Name=EA
+{y1.Year=Soccer} -> y0.Genre=Soccer
+{y1.Year=Soccer} -> y0.Name=F20
+{x0.Name=EA,y1.Name=F21} -> y1.Genre=2020
+{y1.Name=F21,y0.Price=55} -> y1.Genre=2020
+{y1.Name=F21,y0.Year=2019} -> y1.Genre=2020
+
+literalNumber 23 attriNumber 6
+before: dependency number 60
+after: dependency number 32
