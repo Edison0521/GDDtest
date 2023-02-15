@@ -1,0 +1,1062 @@
+(4:person0).primaryName=Margery Lawrence 0->(4:person0).id=100275 0
+(4:person0).birthYear=1889 0->(4:person0).id=100275 0
+(4:person0).deathYear=1969 0->(4:person0).id=100275 0
+(4:person0).primaryProfession=writer,soundtrack 0->(4:person0).id=100275 0
+(4:person1).id=100278 0->(4:person0).id=100275 0
+(4:person1).primaryName=Lili Damita 0->(4:person0).id=100275 0
+(4:person1).birthYear=1904 0->(4:person0).id=100275 0
+(4:person1).deathYear=1994 0->(4:person0).id=100275 0
+(4:person1).primaryProfession=actress,soundtrack 0->(4:person0).id=100275 0
+(4:person2).id=9656 0->(4:person0).id=100275 0
+(4:person2).primaryName=Michael Curtiz 0->(4:person0).id=100275 0
+(4:person2).birthYear=1886 0->(4:person0).id=100275 0
+(4:person2).deathYear=1962 0->(4:person0).id=100275 0
+(4:person2).primaryProfession=director,writer,actor 0->(4:person0).id=100275 0
+(4:person0).id=100275 0->(4:person0).primaryName=Margery Lawrence 0
+(4:person0).birthYear=1889 0->(4:person0).primaryName=Margery Lawrence 0
+(4:person0).deathYear=1969 0->(4:person0).primaryName=Margery Lawrence 0
+(4:person0).primaryProfession=writer,soundtrack 0->(4:person0).primaryName=Margery Lawrence 0
+(4:person1).id=100278 0->(4:person0).primaryName=Margery Lawrence 0
+(4:person1).primaryName=Lili Damita 0->(4:person0).primaryName=Margery Lawrence 0
+(4:person1).birthYear=1904 0->(4:person0).primaryName=Margery Lawrence 0
+(4:person1).deathYear=1994 0->(4:person0).primaryName=Margery Lawrence 0
+(4:person1).primaryProfession=actress,soundtrack 0->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).id=9656 0->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName=Michael Curtiz 0->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).birthYear=1886 0->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).deathYear=1962 0->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession=director,writer,actor 0->(4:person0).primaryName=Margery Lawrence 0
+(4:person0).id=100275 0->(4:person0).birthYear=1889 0
+(4:person0).primaryName=Margery Lawrence 0->(4:person0).birthYear=1889 0
+(4:person0).deathYear=1969 0->(4:person0).birthYear=1889 0
+(4:person0).primaryProfession=writer,soundtrack 0->(4:person0).birthYear=1889 0
+(4:person1).id=100278 0->(4:person0).birthYear=1889 0
+(4:person1).primaryName=Lili Damita 0->(4:person0).birthYear=1889 0
+(4:person1).birthYear=1904 0->(4:person0).birthYear=1889 0
+(4:person1).deathYear=1994 0->(4:person0).birthYear=1889 0
+(4:person1).primaryProfession=actress,soundtrack 0->(4:person0).birthYear=1889 0
+(4:person2).id=9656 0->(4:person0).birthYear=1889 0
+(4:person2).primaryName=Michael Curtiz 0->(4:person0).birthYear=1889 0
+(4:person2).birthYear=1886 0->(4:person0).birthYear=1889 0
+(4:person2).deathYear=1962 0->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession=director,writer,actor 0->(4:person0).birthYear=1889 0
+(4:person0).id=100275 0->(4:person0).deathYear=1969 0
+(4:person0).primaryName=Margery Lawrence 0->(4:person0).deathYear=1969 0
+(4:person0).birthYear=1889 0->(4:person0).deathYear=1969 0
+(4:person0).primaryProfession=writer,soundtrack 0->(4:person0).deathYear=1969 0
+(4:person1).id=100278 0->(4:person0).deathYear=1969 0
+(4:person1).primaryName=Lili Damita 0->(4:person0).deathYear=1969 0
+(4:person1).birthYear=1904 0->(4:person0).deathYear=1969 0
+(4:person1).deathYear=1994 0->(4:person0).deathYear=1969 0
+(4:person1).primaryProfession=actress,soundtrack 0->(4:person0).deathYear=1969 0
+(4:person2).id=9656 0->(4:person0).deathYear=1969 0
+(4:person2).primaryName=Michael Curtiz 0->(4:person0).deathYear=1969 0
+(4:person2).birthYear=1886 0->(4:person0).deathYear=1969 0
+(4:person2).deathYear=1962 0->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession=director,writer,actor 0->(4:person0).deathYear=1969 0
+(4:person0).id=100275 0->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person0).primaryName=Margery Lawrence 0->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person0).birthYear=1889 0->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person0).deathYear=1969 0->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person1).id=100278 0->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person1).primaryName=Lili Damita 0->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person1).birthYear=1904 0->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person1).deathYear=1994 0->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person1).primaryProfession=actress,soundtrack 0->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).id=9656 0->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName=Michael Curtiz 0->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).birthYear=1886 0->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).deathYear=1962 0->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession=director,writer,actor 0->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person0).id=100275 0->(4:person1).id=100278 0
+(4:person0).primaryName=Margery Lawrence 0->(4:person1).id=100278 0
+(4:person0).birthYear=1889 0->(4:person1).id=100278 0
+(4:person0).deathYear=1969 0->(4:person1).id=100278 0
+(4:person0).primaryProfession=writer,soundtrack 0->(4:person1).id=100278 0
+(4:person1).primaryName=Lili Damita 0->(4:person1).id=100278 0
+(4:person1).birthYear=1904 0->(4:person1).id=100278 0
+(4:person1).deathYear=1994 0->(4:person1).id=100278 0
+(4:person1).primaryProfession=actress,soundtrack 0->(4:person1).id=100278 0
+(4:person2).id=9656 0->(4:person1).id=100278 0
+(4:person2).primaryName=Michael Curtiz 0->(4:person1).id=100278 0
+(4:person2).birthYear=1886 0->(4:person1).id=100278 0
+(4:person2).deathYear=1962 0->(4:person1).id=100278 0
+(4:person2).primaryProfession=director,writer,actor 0->(4:person1).id=100278 0
+(4:person0).id=100275 0->(4:person1).primaryName=Lili Damita 0
+(4:person0).primaryName=Margery Lawrence 0->(4:person1).primaryName=Lili Damita 0
+(4:person0).birthYear=1889 0->(4:person1).primaryName=Lili Damita 0
+(4:person0).deathYear=1969 0->(4:person1).primaryName=Lili Damita 0
+(4:person0).primaryProfession=writer,soundtrack 0->(4:person1).primaryName=Lili Damita 0
+(4:person1).id=100278 0->(4:person1).primaryName=Lili Damita 0
+(4:person1).birthYear=1904 0->(4:person1).primaryName=Lili Damita 0
+(4:person1).deathYear=1994 0->(4:person1).primaryName=Lili Damita 0
+(4:person1).primaryProfession=actress,soundtrack 0->(4:person1).primaryName=Lili Damita 0
+(4:person2).id=9656 0->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName=Michael Curtiz 0->(4:person1).primaryName=Lili Damita 0
+(4:person2).birthYear=1886 0->(4:person1).primaryName=Lili Damita 0
+(4:person2).deathYear=1962 0->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession=director,writer,actor 0->(4:person1).primaryName=Lili Damita 0
+(4:person0).id=100275 0->(4:person1).birthYear=1904 0
+(4:person0).primaryName=Margery Lawrence 0->(4:person1).birthYear=1904 0
+(4:person0).birthYear=1889 0->(4:person1).birthYear=1904 0
+(4:person0).deathYear=1969 0->(4:person1).birthYear=1904 0
+(4:person0).primaryProfession=writer,soundtrack 0->(4:person1).birthYear=1904 0
+(4:person1).id=100278 0->(4:person1).birthYear=1904 0
+(4:person1).primaryName=Lili Damita 0->(4:person1).birthYear=1904 0
+(4:person1).deathYear=1994 0->(4:person1).birthYear=1904 0
+(4:person1).primaryProfession=actress,soundtrack 0->(4:person1).birthYear=1904 0
+(4:person2).id=9656 0->(4:person1).birthYear=1904 0
+(4:person2).primaryName=Michael Curtiz 0->(4:person1).birthYear=1904 0
+(4:person2).birthYear=1886 0->(4:person1).birthYear=1904 0
+(4:person2).deathYear=1962 0->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession=director,writer,actor 0->(4:person1).birthYear=1904 0
+(4:person0).id=100275 0->(4:person1).deathYear=1994 0
+(4:person0).primaryName=Margery Lawrence 0->(4:person1).deathYear=1994 0
+(4:person0).birthYear=1889 0->(4:person1).deathYear=1994 0
+(4:person0).deathYear=1969 0->(4:person1).deathYear=1994 0
+(4:person0).primaryProfession=writer,soundtrack 0->(4:person1).deathYear=1994 0
+(4:person1).id=100278 0->(4:person1).deathYear=1994 0
+(4:person1).primaryName=Lili Damita 0->(4:person1).deathYear=1994 0
+(4:person1).birthYear=1904 0->(4:person1).deathYear=1994 0
+(4:person1).primaryProfession=actress,soundtrack 0->(4:person1).deathYear=1994 0
+(4:person2).id=9656 0->(4:person1).deathYear=1994 0
+(4:person2).primaryName=Michael Curtiz 0->(4:person1).deathYear=1994 0
+(4:person2).birthYear=1886 0->(4:person1).deathYear=1994 0
+(4:person2).deathYear=1962 0->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession=director,writer,actor 0->(4:person1).deathYear=1994 0
+(4:person0).id=100275 0->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person0).primaryName=Margery Lawrence 0->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person0).birthYear=1889 0->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person0).deathYear=1969 0->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person0).primaryProfession=writer,soundtrack 0->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person1).id=100278 0->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person1).primaryName=Lili Damita 0->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person1).birthYear=1904 0->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person1).deathYear=1994 0->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).id=9656 0->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName=Michael Curtiz 0->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).birthYear=1886 0->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).deathYear=1962 0->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession=director,writer,actor 0->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person0).id=100275 0->(4:person2).id=9656 0
+(4:person0).primaryName=Margery Lawrence 0->(4:person2).id=9656 0
+(4:person0).birthYear=1889 0->(4:person2).id=9656 0
+(4:person0).deathYear=1969 0->(4:person2).id=9656 0
+(4:person0).primaryProfession=writer,soundtrack 0->(4:person2).id=9656 0
+(4:person1).id=100278 0->(4:person2).id=9656 0
+(4:person1).primaryName=Lili Damita 0->(4:person2).id=9656 0
+(4:person1).birthYear=1904 0->(4:person2).id=9656 0
+(4:person1).deathYear=1994 0->(4:person2).id=9656 0
+(4:person1).primaryProfession=actress,soundtrack 0->(4:person2).id=9656 0
+(4:person2).primaryName=Michael Curtiz 0->(4:person2).id=9656 0
+(4:person2).birthYear=1886 0->(4:person2).id=9656 0
+(4:person2).deathYear=1962 0->(4:person2).id=9656 0
+(4:person2).primaryProfession=director,writer,actor 0->(4:person2).id=9656 0
+(4:person0).id=100275 0->(4:person2).primaryName=Michael Curtiz 0
+(4:person0).primaryName=Margery Lawrence 0->(4:person2).primaryName=Michael Curtiz 0
+(4:person0).birthYear=1889 0->(4:person2).primaryName=Michael Curtiz 0
+(4:person0).deathYear=1969 0->(4:person2).primaryName=Michael Curtiz 0
+(4:person0).primaryProfession=writer,soundtrack 0->(4:person2).primaryName=Michael Curtiz 0
+(4:person1).id=100278 0->(4:person2).primaryName=Michael Curtiz 0
+(4:person1).primaryName=Lili Damita 0->(4:person2).primaryName=Michael Curtiz 0
+(4:person1).birthYear=1904 0->(4:person2).primaryName=Michael Curtiz 0
+(4:person1).deathYear=1994 0->(4:person2).primaryName=Michael Curtiz 0
+(4:person1).primaryProfession=actress,soundtrack 0->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).id=9656 0->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).birthYear=1886 0->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).deathYear=1962 0->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession=director,writer,actor 0->(4:person2).primaryName=Michael Curtiz 0
+(4:person0).id=100275 0->(4:person2).birthYear=1886 0
+(4:person0).primaryName=Margery Lawrence 0->(4:person2).birthYear=1886 0
+(4:person0).birthYear=1889 0->(4:person2).birthYear=1886 0
+(4:person0).deathYear=1969 0->(4:person2).birthYear=1886 0
+(4:person0).primaryProfession=writer,soundtrack 0->(4:person2).birthYear=1886 0
+(4:person1).id=100278 0->(4:person2).birthYear=1886 0
+(4:person1).primaryName=Lili Damita 0->(4:person2).birthYear=1886 0
+(4:person1).birthYear=1904 0->(4:person2).birthYear=1886 0
+(4:person1).deathYear=1994 0->(4:person2).birthYear=1886 0
+(4:person1).primaryProfession=actress,soundtrack 0->(4:person2).birthYear=1886 0
+(4:person2).id=9656 0->(4:person2).birthYear=1886 0
+(4:person2).primaryName=Michael Curtiz 0->(4:person2).birthYear=1886 0
+(4:person2).deathYear=1962 0->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession=director,writer,actor 0->(4:person2).birthYear=1886 0
+(4:person0).id=100275 0->(4:person2).deathYear=1962 0
+(4:person0).primaryName=Margery Lawrence 0->(4:person2).deathYear=1962 0
+(4:person0).birthYear=1889 0->(4:person2).deathYear=1962 0
+(4:person0).deathYear=1969 0->(4:person2).deathYear=1962 0
+(4:person0).primaryProfession=writer,soundtrack 0->(4:person2).deathYear=1962 0
+(4:person1).id=100278 0->(4:person2).deathYear=1962 0
+(4:person1).primaryName=Lili Damita 0->(4:person2).deathYear=1962 0
+(4:person1).birthYear=1904 0->(4:person2).deathYear=1962 0
+(4:person1).deathYear=1994 0->(4:person2).deathYear=1962 0
+(4:person1).primaryProfession=actress,soundtrack 0->(4:person2).deathYear=1962 0
+(4:person2).id=9656 0->(4:person2).deathYear=1962 0
+(4:person2).primaryName=Michael Curtiz 0->(4:person2).deathYear=1962 0
+(4:person2).birthYear=1886 0->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession=director,writer,actor 0->(4:person2).deathYear=1962 0
+(4:person0).id=100275 0->(4:person2).primaryProfession=director,writer,actor 0
+(4:person0).primaryName=Margery Lawrence 0->(4:person2).primaryProfession=director,writer,actor 0
+(4:person0).birthYear=1889 0->(4:person2).primaryProfession=director,writer,actor 0
+(4:person0).deathYear=1969 0->(4:person2).primaryProfession=director,writer,actor 0
+(4:person0).primaryProfession=writer,soundtrack 0->(4:person2).primaryProfession=director,writer,actor 0
+(4:person1).id=100278 0->(4:person2).primaryProfession=director,writer,actor 0
+(4:person1).primaryName=Lili Damita 0->(4:person2).primaryProfession=director,writer,actor 0
+(4:person1).birthYear=1904 0->(4:person2).primaryProfession=director,writer,actor 0
+(4:person1).deathYear=1994 0->(4:person2).primaryProfession=director,writer,actor 0
+(4:person1).primaryProfession=actress,soundtrack 0->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).id=9656 0->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName=Michael Curtiz 0->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).birthYear=1886 0->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).deathYear=1962 0->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67->(4:person2).primaryName and (4:person0).primaryName 0.67
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53->(4:person2).primaryName and (4:person0).primaryName 0.67
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53->(4:person2).primaryName and (4:person0).primaryName 0.67
+(4:person2).primaryName and (4:person0).primaryName 0.67->(4:person2).primaryName and (4:person0).primaryName 0.67
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53->(4:person2).primaryName and (4:person0).primaryName 0.67
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53->(4:person2).primaryName and (4:person0).primaryName 0.67
+(4:person2).primaryName and (4:person0).primaryName 0.67->(4:person2).primaryProfession and (4:person0).primaryProfession 0.53
+(4:person2).primaryName and (4:person0).primaryName 0.67->(4:person2).primaryProfession and (4:person0).primaryProfession 0.53
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53->(4:person2).primaryProfession and (4:person0).primaryProfession 0.53
+(4:person2).primaryName and (4:person0).primaryName 0.67->(4:person2).primaryProfession and (4:person0).primaryProfession 0.53
+(4:person2).primaryName and (4:person0).primaryName 0.67->(4:person2).primaryProfession and (4:person0).primaryProfession 0.53
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53->(4:person2).primaryProfession and (4:person0).primaryProfession 0.53
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person0).id=100275 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person0).id=100275 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person0).primaryName=Margery Lawrence 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person0).birthYear=1889 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person0).deathYear=1969 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person0).primaryProfession=writer,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person1).id=100278 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person1).id=100278 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person1).primaryName=Lili Damita 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person1).birthYear=1904 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person1).deathYear=1994 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person1).primaryProfession=actress,soundtrack 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person2).id=9656 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person2).id=9656 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person2).primaryName=Michael Curtiz 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person2).birthYear=1886 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryProfession=director,writer,actor 0 None->(4:person2).deathYear=1962 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).id=100275 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).id=100275 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryName=Margery Lawrence 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryName=Margery Lawrence 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).birthYear=1889 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).birthYear=1889 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).deathYear=1969 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).deathYear=1969 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person0).primaryProfession=writer,soundtrack 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).id=100278 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).id=100278 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryName=Lili Damita 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryName=Lili Damita 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).birthYear=1904 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).birthYear=1904 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).deathYear=1994 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).deathYear=1994 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person1).primaryProfession=actress,soundtrack 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).id=9656 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).id=9656 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).primaryName=Michael Curtiz 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).primaryName=Michael Curtiz 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).birthYear=1886 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).birthYear=1886 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryName and (4:person0).primaryName 0.67,(4:person2).deathYear=1962 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person2).primaryProfession=director,writer,actor 0
+(4:person2).primaryProfession and (4:person0).primaryProfession 0.53,(4:person2).deathYear=1962 0 None->(4:person2).primaryProfession=director,writer,actor 0
