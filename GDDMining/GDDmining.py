@@ -10,6 +10,50 @@ import operator
 import glob
 from GDDMining import GDD
 
+def diff(l1: list):
+    '''
+    Determining whether a subset exists in a set
+    :param l1: a list
+    :return: a list whitout subset
+    '''
+    l1 = [x for x in l1 if x]
+    temp = l1.copy()
+    for i in range(len(l1)):
+        for j in range(len(l1)):
+            if j > i:
+                if set(l1[j]).issubset(set(l1[i])):
+                    if l1[j] in temp:
+                        temp.remove(l1[j])
+    return temp
+
+
+def maxculsters(s, distance):
+    maxmalobjects = []
+    #print(s)
+    for i in range(len(s)):
+        maxcluster = []
+        for j in range(len(s)):
+            if j > i:
+                pr = i
+                pl = j
+                judge = DDsimilars(s[pl][1], s[pr][1])
+                # print(s[pl], s[pr],judge,distance)
+                if judge <= distance:
+                    if s[pr][0] not in maxcluster:
+                        maxcluster.append(s[pr][0])
+                    maxcluster.append(s[pl][0])
+        # print(maxcluster)
+        if len(maxcluster) != 0:
+            # print(s[maxcluster[len(maxcluster) - 1]][1],s[maxcluster[0]][1],'p')
+            # if s[maxcluster[len(maxcluster) - 1]][1] != s[maxcluster[0]][1]:
+            maxmalobjects.append(maxcluster)
+    # print(maxmalobjects)
+    x = diff(maxmalobjects)
+    if x != []:
+        return x, s[x[0][0]][1]
+    else:
+        return x,None
+
 def calculate_delta(arr, confidence):
     '''
 
@@ -103,6 +147,7 @@ def relationbolck(item,seg):
                     valuelist.append(val)
         tt = calculate_delta(valuelist, con)
         #print("The best delta of " + str(item) + " is " + str(abs(tt)))
+        #print(tt,'2')
         distance = abs(tt)
         distancelist = splitdistance(distance, seg)
         nxms = []
@@ -157,9 +202,6 @@ def combinelist(filename,con):
         x = GDD.node_s(m[0].replace("(", ''), m[1].replace(")", ""), e[1].rstrip())
         #print(x)
         temp.append(x)
-    ##print(temp[5].attribute,temp[10].attribute)
-    #print(len(temp[10].attribute.rstrip()))
-    #print(DDsimilars(temp[10].attribute,'Year'))
     list1 = []
     liters = []
     for i in range(len(temp)):
@@ -181,48 +223,43 @@ def combinelist(filename,con):
 
                     list1.append(s)
                     liters.append(lt)
-    # print(liters)
+    #print(list1)
     file = pd.read_csv(filename, delimiter=";;", engine='python')
     df = pd.DataFrame(file)
-    #print(len(df))
-    #print(df[liters[0][0]])
     samenode = []
-    for liter in liters:
-        u = liter[0]
-        t = u.replace(":", ".")
-        e = u.split('.')
-        #print(e)
-        if 'id' not in e:
-            distanceset = []
-            for k in range(len(df)):
-                for p in range(len(df)):
-                    u = DDsimilars(str(df[liter[0]][k]),str(df[liter[1]][p]))
-                    distanceset.append(u)
-            tt = calculate_delta(distanceset,con)
-            print("The best delta of " + str(liter[0]+liter[1]) + " is " + str(abs(tt)))
-            pretuplelist = []
-            tuplelist = []
-            for x in range(len(df)):
-                #print(df[liter[0]][x],df[liter[1]][x],DDsimilars(df[liter[0]][x],df[liter[1]][x]),abs(tt))
-                if DDsimilars(df[liter[0]][x],df[liter[1]][x]) <= abs(tt):
-                    pretuplelist.append(x)
-            if len(pretuplelist) > 1:
-                for i in range(len(pretuplelist)):
-                    for j in range(len(pretuplelist)):
-                        if j > i:
-                            tuplelist.append((i,j))
-            m = GDD.iteml(liter[0]+' and '+liter[1], abs(tt), tuplelist, None)
-            sameliters.append(m)
-    for i in range(len(list1)):
-        samenode.append(GDD.snode(list1[i], liters[i]))
-    cosameliters = sameliters.copy()
-    for liter in sameliters:
-        if len(liter.l) == 0:
-            cosameliters.remove(liter)
-    print(cosameliters)
-    return cosameliters
-
-
+    for liter in list1:
+        if 'id' not in liter:
+            l = liter.split('=')
+            #print(l)
+            d1 = df[l[0]]
+            d2 = df[l[1]]
+            #print(len(d1))
+            distacne_l = []
+            for i in range(len(d1)):
+                #print(DDsimilars(d1.iloc[i],d2.iloc[i]))
+                #print(d1.iloc[i],d2.iloc[i])
+                dist = DDsimilars(d1.iloc[i],d2.iloc[i])
+                distacne_l.append(abs(dist))
+            #print(calculate_delta(distacne_l,con))
+            tt = abs(calculate_delta(distacne_l,con))
+            dis_l = splitdistance(tt,seg)
+            #print(dis_l)
+            l2 = distacne_l
+            l1 = []
+            for i in range(len(l2)):
+                l1.append(i)
+            l3 = dict(zip(l1, l2))  # key is mainkey value is tuple id
+            s = sorted(l3.items(), key=lambda x: x[1])
+            for dis in dis_l:
+                utmp = maxculsters(s,dis)
+                if utmp[0] != []:
+                    # m = iteml(name, distancelist[i], utmp)
+                    m = GDD.iteml(liter , dis, utmp[0], (dis + 1) / 1)
+                    #print(m)
+                    samenode.append(m)
+                #print(m)
+    print(len(samenode))
+    return samenode
 if __name__ == "__main__":
     #g = glob.glob('*.txt')
     #for gi in g:

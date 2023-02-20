@@ -273,9 +273,9 @@ def splitdistance(m, n):
         return b
 
 
-def  maxculsters(s, distance):
+def maxculsters(s, distance):
     maxmalobjects = []
-    #print(s)
+    print(s)
     for i in range(len(s)):
         maxcluster = []
         for j in range(len(s)):
@@ -340,7 +340,7 @@ def createtunple(name, tmpl, confidence, thresord, segment):
             l4 = dict(zip(l3.values(), l3.keys()))
             # print(l3.items())
             s = sorted(l3.items(), key=lambda x: x[1])
-            # print(s)
+            print(s)
             valuelist = list(l4.keys())
             predeltalist = []
             for i in range(len(valuelist)):
@@ -689,7 +689,7 @@ def execl(l,r):
 if __name__ == "__main__":
     #g = glob.glob('*.txt')
     #for gi in g:
-        filename = 'produce_Table4.txt'
+        filename = 'produce_Table0.txt'
         files = filename + 'result4.txt'
         file = pd.read_csv(filename, delimiter=";;", engine='python')
 
