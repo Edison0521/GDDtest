@@ -349,12 +349,12 @@ def createtunple(name, tmpl, confidence, thresord, segment):
                         predeltalist.append(DDsimilars(valuelist[i], valuelist[j]))
             # print(predeltalist)
             tt = calculate_delta(predeltalist, confidence)
-            # print("The best delta of " + str(name) + " is " + str(abs(tt)))
+            print("The best delta of " + str(name) + " is " + str(abs(tt)))
             distance = abs(tt)
             # q = Items(name,distance)
-            xmxs = []
+            #xmxs = []
             distancelist = splitdistance(distance, segment)
-            for i in range(len(distancelist)):
+            '''for i in range(len(distancelist)):
                 utmp = maxculsters(s, distancelist[i])
                 if utmp[0] != []:
                     # m = iteml(name, distancelist[i], utmp)
@@ -364,7 +364,7 @@ def createtunple(name, tmpl, confidence, thresord, segment):
             # print(valuelist)
             # print(origint)
             # print(distancelist)
-            '''for liter in valuelist:
+            for liter in valuelist:
                 t2 = []
                 for i in range(len(origint)):
                     t1 = []
@@ -380,19 +380,14 @@ def createtunple(name, tmpl, confidence, thresord, segment):
             for dis in distancelist:
                 l1 = []
                 for val in valuelist:
-                    # print(val)
                     l2 = []
                     for i in range(len(origint)):
                         if DDsimilars(val, origint[i]) <= dis:
                             l2.append(i)
                     l1.append(l2)
                     if len(l2) != 1:
-                        # print('this is',l2,dis,name,val)
-                        # print('this is', name , '=' , val , 'distance = ' , dis , 'tunple = ' , l2)
                         m = iteml(name + '=' + str(val), str(dis), [l2], str(dis / len(distancelist)))
                         nxms.append(m)
-            # print(nxms,'n')
-            # print(xmxs,'o')
             return nxms
         else:
             return []
@@ -414,30 +409,18 @@ def createtunple(name, tmpl, confidence, thresord, segment):
                    This section is a comparison of the character variable gap
                    Not yet completed
                    '''
-            # print(l2)
             l1 = []
             for i in range(len(l2)):
                 l1.append(i)
-
-            # print(l1)
             l3 = dict(zip(l1, l2))  # key is mainkey value is tuple id
             l4 = dict(zip(l3.values(), l3.keys()))
-            # print(l3.items())
-            s = sorted(l3.items(), key=lambda x: x[1])
-            # print(s)
             valuelist = list(l4.keys())
             predeltalist = []
             for i in range(len(valuelist)):
                 for j in range(len(valuelist)):
                     if j > i:
                         predeltalist.append(DDsimilars(valuelist[i], valuelist[j]))
-            # print(predeltalist)
-            tt = calculate_delta(predeltalist, confidence)
-            # print("The best delta of " + str(name) + " is " + str(abs(tt)))
             distance = 0
-            # q = Items(name,distance)
-            #xmxs = []
-            #print(s)
             distancelist = splitdistance(distance, segment)
             nxms = []
             for dis in distancelist:
@@ -450,12 +433,8 @@ def createtunple(name, tmpl, confidence, thresord, segment):
                             l2.append(i)
                     l1.append(l2)
                     if len(l2) != 1:
-                        # print('this is',l2,dis,name,val)
-                        # print('this is', name , '=' , val , 'distance = ' , dis , 'tunple = ' , l2)
                         m = iteml(name + '=' + str(val), str(dis), [l2], str(dis / len(distancelist)))
                         nxms.append(m)
-            # print(nxms,'n')
-            # print(xmxs,'o')
             return nxms
         else:
             return []
@@ -710,12 +689,12 @@ def execl(l,r):
 if __name__ == "__main__":
     #g = glob.glob('*.txt')
     #for gi in g:
-        filename = 'produce_Table0.txt'
-        files = filename + 'result2.txt'
+        filename = 'produce_Table4.txt'
+        files = filename + 'result4.txt'
         file = pd.read_csv(filename, delimiter=";;", engine='python')
 
-        f2 = open(files + 'noredunt2.txt','w',encoding='utf-8')
-        file = pd.read_csv(filename, delimiter=";;", engine='python')
+        f2 = open(files + 'noredunt4.txt','w',encoding='utf-8')
+        #file = pd.read_csv(filename, delimiter=";;", engine='python')
         df = pd.DataFrame(file)
         # title = getAttrbutes(filename)
         title = []
@@ -747,7 +726,6 @@ if __name__ == "__main__":
                 #print("How many different distances do you want about", title[i])
                 # seg = int(input())
                 seg = 3
-                # if title[i] != "id":
                 ut = createtunple(title[i], df[title[i]], con, thresord, seg)
                 for i in range(len(ut)):
                     for j in range(len(ut[i].l)):
@@ -797,7 +775,7 @@ if __name__ == "__main__":
         level0Set = []
         depedency = []
         prunlist = []
-        print(candite)
+        #print(candite)
         attriNumber = len(candite)
         L = {}
         for i in range(len(candite)):
