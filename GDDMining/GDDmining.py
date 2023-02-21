@@ -29,7 +29,7 @@ def diff(l1: list):
 
 def maxculsters(s, distance):
     maxmalobjects = []
-    #print(s)
+    #print(s,distance)
     for i in range(len(s)):
         maxcluster = []
         for j in range(len(s)):
@@ -182,12 +182,12 @@ def relationbolck(item,seg):
                     if val == d[i]:
                         l2.append(i)
                 l1.append(l2)
-                if len(l2) != 1:
+                if len(l2) > 1:
                     m = GDD.iteml(item + '=' + str(val), str(dis), l2, str(dis / len(distancelist)))
                     nxms.append(m)
         return nxms
-def combinelist(filename,con):
-    sameliters = []
+
+def graphrelations(filename,con):
     filename = filename
     with open(filename, 'r', encoding='utf-8') as f:  # 打开⽂件
         lines = f.readlines()  # 读取所有⾏
@@ -250,16 +250,37 @@ def combinelist(filename,con):
                 l1.append(i)
             l3 = dict(zip(l1, l2))  # key is mainkey value is tuple id
             s = sorted(l3.items(), key=lambda x: x[1])
+            #print(s)
             for dis in dis_l:
-                utmp = maxculsters(s,dis)
+                '''utmp = maxculsters(s,dis)
                 if utmp[0] != []:
                     # m = iteml(name, distancelist[i], utmp)
                     m = GDD.iteml(liter , dis, utmp[0], (dis + 1) / 1)
                     #print(m)
-                    samenode.append(m)
+                    samenode.append(m)'''
+                #x = 0
+                pairwise = []
+                for var in s:
+                    #print(var)
+                    if var[1] <= dis:
+                        #print(var[0])
+                        pairwise.append(var[0])
+                m = GDD.iteml(liter,dis,pairwise,0)
                 #print(m)
-    print(len(samenode))
+                if len(m.l) > 1:
+                    samenode.append(m)
     return samenode
+
+def r_block_filter(rblocks):
+    #print(rblocks)
+    for blo in rblocks:
+        '''for var1,var2 in blo:
+            if var1.name == var2 and var1.dis != var2.dis:
+                print(var1,var2)'''
+        if len(blo) > 1:
+            for var1 in blo:
+                print(var1)
+
 if __name__ == "__main__":
     #g = glob.glob('*.txt')
     #for gi in g:
@@ -289,5 +310,7 @@ if __name__ == "__main__":
                 x = relationbolck(item,seg)
                 relation_candait.append(x)
         #print(relation_candait)
-        combinelist(filename,con)
+        s = r_block_filter(relation_candait)
+        vblocks = graphrelations(filename,con)
+        #print(vblocks)
 
