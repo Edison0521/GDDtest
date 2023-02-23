@@ -138,6 +138,7 @@ def splitdistance(m, n):
 def relationbolck(item,seg):
     if 'id' not in item:
         d = df[item].tolist()
+        #print(item,d)
         cleanlist = list(set(d))
         valuelist = []
         for i in range(len(cleanlist)):
@@ -150,23 +151,40 @@ def relationbolck(item,seg):
         #print(tt,'2')
         distance = abs(tt)
         distancelist = splitdistance(distance, seg)
-        nxms = []
-        for dis in distancelist:
+        #nxms = []
+        nlist = []
+        #for dis in distancelist:
+        for val in cleanlist:
             l1 = []
-            for val in cleanlist:
+            #for val in cleanlist:
+            for dis in distancelist:
                 l2 = []
                 for i in range(len(d)):
                     if DDsimilars(val, d[i]) <= dis:
                         l2.append(i)
-                l1.append(l2)
+                #l1.append(l2)
+                #print(l1)
                 if len(l2) != 1:
                     m = GDD.iteml(item + '=' + str(val), str(dis), l2, str(dis / len(distancelist)))
-                    nxms.append(m)
-        for var1 in nxms:
-            for var2 in nxms:
-                if var1.name == var2.name and var1.sigma != var2.sigma and var1.l == var2.l:
-                    nxms.remove(var2)
-        return nxms
+                    #print(m)
+                    l1.append(m)
+                    #nxms.append(m)
+            if len(l1) != 0:
+                nlist.append(l1)
+        #print(nlist)
+        for nxms in nlist:
+            for var1 in nxms:
+                for var2 in nxms:
+                    if var1.name == var2.name and var1.sigma != var2.sigma and var1.l == var2.l:
+                        nxms.remove(var2)
+                if len(var1.l) == 0:
+                    nxms.remove(var1)
+            #l = len(nxms)
+            #if l > 1:
+                #print(nxms)
+            #r_block_filter(nxms,cleanlist)
+        #print(nlist)
+        return nlist
     else:
         d = df[item].tolist()
         cleanlist = list(set(d))
@@ -184,8 +202,9 @@ def relationbolck(item,seg):
                 l1.append(l2)
                 if len(l2) > 1:
                     m = GDD.iteml(item + '=' + str(val), str(dis), l2, str(dis / len(distancelist)))
+
                     nxms.append(m)
-        return nxms
+        return [nxms]
 
 def graphrelations(filename,con):
     filename = filename
@@ -228,6 +247,7 @@ def graphrelations(filename,con):
     df = pd.DataFrame(file)
     samenode = []
     for liter in list1:
+        slist = []
         if 'id' not in liter:
             l = liter.split('=')
             #print(l)
@@ -252,40 +272,28 @@ def graphrelations(filename,con):
             s = sorted(l3.items(), key=lambda x: x[1])
             #print(s)
             for dis in dis_l:
-                '''utmp = maxculsters(s,dis)
-                if utmp[0] != []:
-                    # m = iteml(name, distancelist[i], utmp)
-                    m = GDD.iteml(liter , dis, utmp[0], (dis + 1) / 1)
-                    #print(m)
-                    samenode.append(m)'''
-                #x = 0
                 pairwise = []
                 for var in s:
-                    #print(var)
                     if var[1] <= dis:
-                        #print(var[0])
                         pairwise.append(var[0])
                 m = GDD.iteml(liter,dis,pairwise,0)
-                #print(m)
                 if len(m.l) > 1:
-                    samenode.append(m)
+                    slist.append(m)
+                    #print(m)
+        if len(slist) > 0:
+            samenode.append([slist])
+    #print(samenode)
+
+
     return samenode
 
-def r_block_filter(rblocks):
-    #print(rblocks)
-    for blo in rblocks:
-        '''for var1,var2 in blo:
-            if var1.name == var2 and var1.dis != var2.dis:
-                print(var1,var2)'''
-        if len(blo) > 1:
-            for var1 in blo:
-                print(var1)
+
 
 if __name__ == "__main__":
     #g = glob.glob('*.txt')
     #for gi in g:
         filename = 'produce_Table0.txt'
-        files = filename + 'result0.txt'
+        files = filename + 'result40.txt'
         file = pd.read_csv(filename, delimiter=";;", engine='python')
         df = pd.DataFrame(file)
         title = []
@@ -310,7 +318,22 @@ if __name__ == "__main__":
                 x = relationbolck(item,seg)
                 relation_candait.append(x)
         #print(relation_candait)
-        s = r_block_filter(relation_candait)
+        #s = r_block_filter(relation_candait)
         vblocks = graphrelations(filename,con)
         #print(vblocks)
-
+        #for cad in relation_candait:
+            #print(cad)
+        candite = relation_candait + vblocks
+        #print(candite)
+        level0Set = []
+        attriNumber = len(candite)
+        L = []
+        lattice = []
+        for i in range(attriNumber):
+            L.append((i,))
+        literalsSet = []
+        for i in range(len(candite)):
+            # print(literalsSet)
+            level0Set.append(GDD.Block([i], [candite[i]]))
+        lattice.append(level0Set)
+        print(level0Set)
