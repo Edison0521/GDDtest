@@ -1,0 +1,412 @@
+person.birthYear=1892 0.25->person.primaryProfession=actor 0.17
+person.birthYear=1896 0.25->person.primaryProfession=actor 0.17
+person.birthYear=1895 0.25->person.primaryProfession=actor 0.17
+person.birthYear=1894 0.25->person.primaryProfession=actor 0.17
+person.birthYear=1891 0.25->person.primaryProfession=actor 0.17
+person.birthYear=1899 0.25->person.primaryProfession=actor 0.17
+person.birthYear=1897 0.25->person.primaryProfession=actor 0.17
+person.birthYear=1907 0.25->(3:principal0).category=producer 0.07
+person.birthYear=1905 0.25->(3:principal0).category=producer 0.07
+person.birthYear=1906 0.25->(3:principal0).category=producer 0.07
+person.birthYear=1903 0.25->(3:principal0).category=producer 0.07
+person.birthYear=1885 0.25->(3:principal0).category=writer 0.07
+person.birthYear=1885 0.25->(4:person1).birthYear=(4:person0).birthYear 0.5
+person.birthYear=1878 0.25->(3:principal0).category=writer 0.07
+person.birthYear=1878 0.25->(4:person1).birthYear=(4:person0).birthYear 0.5
+person.birthYear=1901 0.25->(3:principal0).category=producer 0.07
+person.birthYear=1887 0.25->(3:principal0).category=writer 0.07
+person.birthYear=1887 0.25->(4:person1).birthYear=(4:person0).birthYear 0.5
+person.birthYear=1888 0.08->(4:person1).birthYear=(4:person0).birthYear 0.17
+person.birthYear=1888 0.08->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1888 0.08->(4:person1).birthYear=(4:person0).birthYear 0.5
+person.birthYear=1909 0.25->(3:principal0).category=producer 0.07
+person.birthYear=1908 0.25->(3:principal0).category=producer 0.07
+person.birthYear=1940 0.25->(4:person1).birthYear=(4:person0).birthYear 0.5
+person.birthYear=1940 0.25->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1940 0.25->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1898 0.25->(4:person1).birthYear=(4:person0).birthYear 0.5
+person.birthYear=1904 0.25->(4:person1).birthYear=(4:person0).birthYear 0.5
+person.birthYear=1904 0.25->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1904 0.25->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1890 0.25->(4:person1).birthYear=(4:person0).birthYear 0.5
+person.birthYear=1890 0.25->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1890 0.25->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1889 0.25->(4:person1).birthYear=(4:person0).birthYear 0.5
+person.primaryProfession=actor 0.17->(4:person1).primaryProfession=(4:person0).primaryProfession 0.07
+person.primaryProfession=actor 0.17->(4:person1).primaryProfession=(4:person0).primaryProfession 0.15
+person.primaryProfession=actor 0.17->(4:person1).primaryProfession=(4:person0).primaryProfession 0.22
+(3:principal0).category=producer 0.07->(3:principal0).job=producer 0.3
+(3:principal0).category=actor 0.07->(3:principal0).job=N 0.3
+(3:principal0).category=cinematographer 0.07->(4:person0).id=100004 0
+(3:principal0).category=writer 0.07->(4:person0).id=10019 0
+(3:principal0).job=producer 0.3->(4:person0).id=100170 0
+(3:principal0).job=contributing writer 0.3->(3:principal0).id=10025 0
+(3:principal0).job=original story and screenplay 0.3->(3:principal0).id=109837 0
+(3:principal0).job=editorial director 0.3->(3:principal0).id=101408 0
+(3:principal0).characters=[O'Flynn's Groom] 0.04->(3:principal0).id=108659 0
+(3:principal0).characters=[Heinie] 0.04->(3:principal0).id=34748 0
+(3:principal0).characters=[Angus McAxle] 0.04->(3:principal0).id=119379 0
+(3:principal0).characters=[Shorty] 0.04->(3:principal0).id=9645 0
+(3:principal0).characters=[Bat Smith] 0.04->(3:principal0).id=100053 0
+(3:principal0).characters=[Man playing cards, seated on the left] 0.04->(4:person0).id=100 0
+(4:person0).id=100170 0->(3:principal0).id=14 0
+(4:person0).id=100054 0->person.birthYear=1890 0.25
+(4:person0).id=100054 0->(3:principal0).category=actor 0.07
+(4:person0).id=100 0->(3:principal0).id=99 0
+(4:person0).id=100004 0->(3:principal0).id=34 0
+(4:person0).id=10019 0->(3:principal0).characters=N 0.04
+(3:principal0).id=9645 0->(4:person0).id=100054 0
+(3:principal0).id=14 0->person.birthYear=1940 0.25
+(3:principal0).id=14 0->person.birthYear=1904 0.25
+(3:principal0).id=14 0->person.birthYear=1890 0.25
+(3:principal0).id=14 0->(3:principal0).characters=N 0.04
+(3:principal0).id=14 0->(4:person1).birthYear=(4:person0).birthYear 0.33
+(3:principal0).id=108659 0->(4:person0).id=100054 0
+(3:principal0).id=119379 0->(4:person0).id=100054 0
+(3:principal0).id=100053 0->(4:person0).id=100054 0
+(3:principal0).id=34748 0->(4:person0).id=100054 0
+(3:principal0).id=101408 0->(3:principal0).category=writer 0.07
+(3:principal0).id=99 0->(3:principal0).category=actor 0.07
+(3:principal0).id=10025 0->(3:principal0).category=writer 0.07
+(3:principal0).id=109837 0->(3:principal0).category=writer 0.07
+(3:principal0).id=34 0->(3:principal0).job=N 0.3
+(3:principal0).id=34 0->(3:principal0).characters=N 0.04
+(4:person1).birthYear=(4:person0).birthYear 0.17->person.birthYear=1885 0.25
+(4:person1).birthYear=(4:person0).birthYear 0.17->person.birthYear=1878 0.25
+(4:person1).birthYear=(4:person0).birthYear 0.17->person.birthYear=1887 0.25
+(4:person1).birthYear=(4:person0).birthYear 0.17->person.birthYear=1898 0.25
+(4:person1).birthYear=(4:person0).birthYear 0.17->person.birthYear=1889 0.25
+(4:person1).birthYear=(4:person0).birthYear 0.17->(4:person1).deathYear=(4:person0).deathYear 0.5
+(4:person1).birthYear=(4:person0).birthYear 0.17->(4:person1).deathYear=(4:person0).deathYear 0.75
+(4:person1).deathYear=(4:person0).deathYear 0.25->(3:principal0).category=writer 0.07
+(4:person1).primaryProfession=(4:person0).primaryProfession 0.07->person.birthYear=1898 0.25
+(4:person1).primaryProfession=(4:person0).primaryProfession 0.07->person.birthYear=1889 0.25
+(4:person1).primaryProfession=(4:person0).primaryProfession 0.07->(4:person0).id=100054 0
+(4:person1).primaryProfession=(4:person0).primaryProfession 0.07->(4:person1).birthYear=(4:person0).birthYear 0.33
+(4:person1).primaryProfession=(4:person0).primaryProfession 0.15->person.birthYear=1898 0.25
+(4:person1).primaryProfession=(4:person0).primaryProfession 0.15->person.birthYear=1889 0.25
+(4:person1).primaryProfession=(4:person0).primaryProfession 0.15->(4:person0).id=100054 0
+(4:person1).primaryProfession=(4:person0).primaryProfession 0.15->(4:person1).birthYear=(4:person0).birthYear 0.33
+(4:person1).primaryProfession=(4:person0).primaryProfession 0.22->person.birthYear=1898 0.25
+(4:person1).primaryProfession=(4:person0).primaryProfession 0.22->person.birthYear=1889 0.25
+(4:person1).primaryProfession=(4:person0).primaryProfession 0.22->(4:person0).id=100054 0
+(4:person1).primaryProfession=(4:person0).primaryProfession 0.22->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1940 0.25;;(3:principal0).category=actor 0.07->(3:principal0).job=N 0.3
+person.birthYear=1940 0.25;;(3:principal0).category=actor 0.07->(4:person0).id=100054 0
+person.birthYear=1898 0.25;;(3:principal0).category=actor 0.07->(3:principal0).job=N 0.3
+person.birthYear=1898 0.25;;(3:principal0).category=actor 0.07->(4:person0).id=100054 0
+person.birthYear=1898 0.25;;(3:principal0).category=actor 0.07->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1898 0.25;;(3:principal0).category=actor 0.07->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1898 0.25;;(3:principal0).category=actor 0.07->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1904 0.25;;(3:principal0).category=actor 0.07->(3:principal0).job=N 0.3
+person.birthYear=1904 0.25;;(3:principal0).category=actor 0.07->(4:person0).id=100054 0
+person.birthYear=1890 0.25;;(3:principal0).category=actor 0.07->(3:principal0).job=N 0.3
+person.birthYear=1889 0.25;;(3:principal0).category=actor 0.07->(3:principal0).job=N 0.3
+person.birthYear=1889 0.25;;(3:principal0).category=actor 0.07->(4:person0).id=100054 0
+person.birthYear=1889 0.25;;(3:principal0).category=actor 0.07->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1889 0.25;;(3:principal0).category=actor 0.07->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1889 0.25;;(3:principal0).category=actor 0.07->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1898 0.25;;(3:principal0).category=writer 0.07->(4:person0).id=10019 0
+person.birthYear=1889 0.25;;(3:principal0).category=writer 0.07->(4:person0).id=10019 0
+person.birthYear=1898 0.25;;(3:principal0).job=contributing writer 0.3->(3:principal0).id=10025 0
+person.birthYear=1889 0.25;;(3:principal0).job=contributing writer 0.3->(3:principal0).id=10025 0
+person.birthYear=1898 0.25;;(3:principal0).job=original story and screenplay 0.3->(3:principal0).id=109837 0
+person.birthYear=1898 0.25;;(3:principal0).job=original story and screenplay 0.3->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1898 0.25;;(3:principal0).job=original story and screenplay 0.3->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1889 0.25;;(3:principal0).job=original story and screenplay 0.3->(3:principal0).id=109837 0
+person.birthYear=1889 0.25;;(3:principal0).job=original story and screenplay 0.3->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1889 0.25;;(3:principal0).job=original story and screenplay 0.3->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1898 0.25;;(3:principal0).job=editorial director 0.3->(3:principal0).id=101408 0
+person.birthYear=1889 0.25;;(3:principal0).job=editorial director 0.3->(3:principal0).id=101408 0
+person.birthYear=1940 0.25;;(3:principal0).job=N 0.3->(4:person0).id=100054 0
+person.birthYear=1898 0.25;;(3:principal0).job=N 0.3->(4:person0).id=100054 0
+person.birthYear=1898 0.25;;(3:principal0).job=N 0.3->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1898 0.25;;(3:principal0).job=N 0.3->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1898 0.25;;(3:principal0).job=N 0.3->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1904 0.25;;(3:principal0).job=N 0.3->(4:person0).id=100054 0
+person.birthYear=1889 0.25;;(3:principal0).job=N 0.3->(4:person0).id=100054 0
+person.birthYear=1889 0.25;;(3:principal0).job=N 0.3->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1889 0.25;;(3:principal0).job=N 0.3->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1889 0.25;;(3:principal0).job=N 0.3->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1885 0.25;;(3:principal0).job=contributing writer 0.3->(3:principal0).id=10025 0
+person.birthYear=1878 0.25;;(3:principal0).job=contributing writer 0.3->(3:principal0).id=10025 0
+person.birthYear=1887 0.25;;(3:principal0).job=contributing writer 0.3->(3:principal0).id=10025 0
+person.birthYear=1888 0.08;;(3:principal0).job=contributing writer 0.3->(3:principal0).id=10025 0
+person.birthYear=1885 0.25;;(3:principal0).job=original story and screenplay 0.3->(3:principal0).id=109837 0
+person.birthYear=1885 0.25;;(3:principal0).job=original story and screenplay 0.3->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1885 0.25;;(3:principal0).job=original story and screenplay 0.3->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1878 0.25;;(3:principal0).job=original story and screenplay 0.3->(3:principal0).id=109837 0
+person.birthYear=1878 0.25;;(3:principal0).job=original story and screenplay 0.3->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1878 0.25;;(3:principal0).job=original story and screenplay 0.3->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1887 0.25;;(3:principal0).job=original story and screenplay 0.3->(3:principal0).id=109837 0
+person.birthYear=1887 0.25;;(3:principal0).job=original story and screenplay 0.3->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1887 0.25;;(3:principal0).job=original story and screenplay 0.3->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1885 0.25;;(3:principal0).job=editorial director 0.3->(3:principal0).id=101408 0
+person.birthYear=1878 0.25;;(3:principal0).job=editorial director 0.3->(3:principal0).id=101408 0
+person.birthYear=1887 0.25;;(3:principal0).job=editorial director 0.3->(3:principal0).id=101408 0
+person.birthYear=1888 0.08;;(3:principal0).job=editorial director 0.3->(3:principal0).id=101408 0
+person.birthYear=1940 0.25;;(3:principal0).characters=[O'Flynn's Groom] 0.04->(3:principal0).id=108659 0
+person.birthYear=1898 0.25;;(3:principal0).characters=[O'Flynn's Groom] 0.04->(3:principal0).id=108659 0
+person.birthYear=1898 0.25;;(3:principal0).characters=[O'Flynn's Groom] 0.04->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1898 0.25;;(3:principal0).characters=[O'Flynn's Groom] 0.04->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1898 0.25;;(3:principal0).characters=[O'Flynn's Groom] 0.04->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1904 0.25;;(3:principal0).characters=[O'Flynn's Groom] 0.04->(3:principal0).id=108659 0
+person.birthYear=1889 0.25;;(3:principal0).characters=[O'Flynn's Groom] 0.04->(3:principal0).id=108659 0
+person.birthYear=1889 0.25;;(3:principal0).characters=[O'Flynn's Groom] 0.04->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1889 0.25;;(3:principal0).characters=[O'Flynn's Groom] 0.04->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1889 0.25;;(3:principal0).characters=[O'Flynn's Groom] 0.04->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1940 0.25;;(3:principal0).characters=[Heinie] 0.04->(3:principal0).id=34748 0
+person.birthYear=1898 0.25;;(3:principal0).characters=[Heinie] 0.04->(3:principal0).id=34748 0
+person.birthYear=1898 0.25;;(3:principal0).characters=[Heinie] 0.04->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1898 0.25;;(3:principal0).characters=[Heinie] 0.04->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1898 0.25;;(3:principal0).characters=[Heinie] 0.04->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1904 0.25;;(3:principal0).characters=[Heinie] 0.04->(3:principal0).id=34748 0
+person.birthYear=1889 0.25;;(3:principal0).characters=[Heinie] 0.04->(3:principal0).id=34748 0
+person.birthYear=1889 0.25;;(3:principal0).characters=[Heinie] 0.04->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1889 0.25;;(3:principal0).characters=[Heinie] 0.04->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1889 0.25;;(3:principal0).characters=[Heinie] 0.04->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1940 0.25;;(3:principal0).characters=[Angus McAxle] 0.04->(3:principal0).id=119379 0
+person.birthYear=1898 0.25;;(3:principal0).characters=[Angus McAxle] 0.04->(3:principal0).id=119379 0
+person.birthYear=1898 0.25;;(3:principal0).characters=[Angus McAxle] 0.04->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1898 0.25;;(3:principal0).characters=[Angus McAxle] 0.04->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1898 0.25;;(3:principal0).characters=[Angus McAxle] 0.04->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1904 0.25;;(3:principal0).characters=[Angus McAxle] 0.04->(3:principal0).id=119379 0
+person.birthYear=1889 0.25;;(3:principal0).characters=[Angus McAxle] 0.04->(3:principal0).id=119379 0
+person.birthYear=1889 0.25;;(3:principal0).characters=[Angus McAxle] 0.04->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1889 0.25;;(3:principal0).characters=[Angus McAxle] 0.04->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1889 0.25;;(3:principal0).characters=[Angus McAxle] 0.04->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1940 0.25;;(3:principal0).characters=[Shorty] 0.04->(3:principal0).id=9645 0
+person.birthYear=1898 0.25;;(3:principal0).characters=[Shorty] 0.04->(3:principal0).id=9645 0
+person.birthYear=1898 0.25;;(3:principal0).characters=[Shorty] 0.04->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1898 0.25;;(3:principal0).characters=[Shorty] 0.04->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1898 0.25;;(3:principal0).characters=[Shorty] 0.04->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1904 0.25;;(3:principal0).characters=[Shorty] 0.04->(3:principal0).id=9645 0
+person.birthYear=1889 0.25;;(3:principal0).characters=[Shorty] 0.04->(3:principal0).id=9645 0
+person.birthYear=1889 0.25;;(3:principal0).characters=[Shorty] 0.04->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1889 0.25;;(3:principal0).characters=[Shorty] 0.04->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1889 0.25;;(3:principal0).characters=[Shorty] 0.04->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1940 0.25;;(3:principal0).characters=[Bat Smith] 0.04->(3:principal0).id=100053 0
+person.birthYear=1898 0.25;;(3:principal0).characters=[Bat Smith] 0.04->(3:principal0).id=100053 0
+person.birthYear=1898 0.25;;(3:principal0).characters=[Bat Smith] 0.04->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1898 0.25;;(3:principal0).characters=[Bat Smith] 0.04->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1898 0.25;;(3:principal0).characters=[Bat Smith] 0.04->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1904 0.25;;(3:principal0).characters=[Bat Smith] 0.04->(3:principal0).id=100053 0
+person.birthYear=1889 0.25;;(3:principal0).characters=[Bat Smith] 0.04->(3:principal0).id=100053 0
+person.birthYear=1889 0.25;;(3:principal0).characters=[Bat Smith] 0.04->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1889 0.25;;(3:principal0).characters=[Bat Smith] 0.04->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1889 0.25;;(3:principal0).characters=[Bat Smith] 0.04->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1898 0.25;;(3:principal0).characters=N 0.04->(4:person0).id=10019 0
+person.birthYear=1889 0.25;;(3:principal0).characters=N 0.04->(4:person0).id=10019 0
+person.birthYear=1892 0.25;;(3:principal0).characters=[O'Flynn's Groom] 0.04->(3:principal0).id=108659 0
+person.birthYear=1896 0.25;;(3:principal0).characters=[O'Flynn's Groom] 0.04->(3:principal0).id=108659 0
+person.birthYear=1895 0.25;;(3:principal0).characters=[O'Flynn's Groom] 0.04->(3:principal0).id=108659 0
+person.birthYear=1894 0.25;;(3:principal0).characters=[O'Flynn's Groom] 0.04->(3:principal0).id=108659 0
+person.birthYear=1891 0.25;;(3:principal0).characters=[O'Flynn's Groom] 0.04->(3:principal0).id=108659 0
+person.birthYear=1899 0.25;;(3:principal0).characters=[O'Flynn's Groom] 0.04->(3:principal0).id=108659 0
+person.birthYear=1897 0.25;;(3:principal0).characters=[O'Flynn's Groom] 0.04->(3:principal0).id=108659 0
+person.birthYear=1892 0.25;;(3:principal0).characters=[Heinie] 0.04->(3:principal0).id=34748 0
+person.birthYear=1896 0.25;;(3:principal0).characters=[Heinie] 0.04->(3:principal0).id=34748 0
+person.birthYear=1895 0.25;;(3:principal0).characters=[Heinie] 0.04->(3:principal0).id=34748 0
+person.birthYear=1894 0.25;;(3:principal0).characters=[Heinie] 0.04->(3:principal0).id=34748 0
+person.birthYear=1891 0.25;;(3:principal0).characters=[Heinie] 0.04->(3:principal0).id=34748 0
+person.birthYear=1899 0.25;;(3:principal0).characters=[Heinie] 0.04->(3:principal0).id=34748 0
+person.birthYear=1897 0.25;;(3:principal0).characters=[Heinie] 0.04->(3:principal0).id=34748 0
+person.birthYear=1892 0.25;;(3:principal0).characters=[Angus McAxle] 0.04->(3:principal0).id=119379 0
+person.birthYear=1896 0.25;;(3:principal0).characters=[Angus McAxle] 0.04->(3:principal0).id=119379 0
+person.birthYear=1895 0.25;;(3:principal0).characters=[Angus McAxle] 0.04->(3:principal0).id=119379 0
+person.birthYear=1894 0.25;;(3:principal0).characters=[Angus McAxle] 0.04->(3:principal0).id=119379 0
+person.birthYear=1891 0.25;;(3:principal0).characters=[Angus McAxle] 0.04->(3:principal0).id=119379 0
+person.birthYear=1899 0.25;;(3:principal0).characters=[Angus McAxle] 0.04->(3:principal0).id=119379 0
+person.birthYear=1897 0.25;;(3:principal0).characters=[Angus McAxle] 0.04->(3:principal0).id=119379 0
+person.birthYear=1892 0.25;;(3:principal0).characters=[Shorty] 0.04->(3:principal0).id=9645 0
+person.birthYear=1896 0.25;;(3:principal0).characters=[Shorty] 0.04->(3:principal0).id=9645 0
+person.birthYear=1895 0.25;;(3:principal0).characters=[Shorty] 0.04->(3:principal0).id=9645 0
+person.birthYear=1894 0.25;;(3:principal0).characters=[Shorty] 0.04->(3:principal0).id=9645 0
+person.birthYear=1891 0.25;;(3:principal0).characters=[Shorty] 0.04->(3:principal0).id=9645 0
+person.birthYear=1899 0.25;;(3:principal0).characters=[Shorty] 0.04->(3:principal0).id=9645 0
+person.birthYear=1897 0.25;;(3:principal0).characters=[Shorty] 0.04->(3:principal0).id=9645 0
+person.birthYear=1892 0.25;;(3:principal0).characters=[Bat Smith] 0.04->(3:principal0).id=100053 0
+person.birthYear=1896 0.25;;(3:principal0).characters=[Bat Smith] 0.04->(3:principal0).id=100053 0
+person.birthYear=1895 0.25;;(3:principal0).characters=[Bat Smith] 0.04->(3:principal0).id=100053 0
+person.birthYear=1894 0.25;;(3:principal0).characters=[Bat Smith] 0.04->(3:principal0).id=100053 0
+person.birthYear=1891 0.25;;(3:principal0).characters=[Bat Smith] 0.04->(3:principal0).id=100053 0
+person.birthYear=1899 0.25;;(3:principal0).characters=[Bat Smith] 0.04->(3:principal0).id=100053 0
+person.birthYear=1897 0.25;;(3:principal0).characters=[Bat Smith] 0.04->(3:principal0).id=100053 0
+person.birthYear=1940 0.25;;(3:principal0).characters=N 0.04->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1904 0.25;;(3:principal0).characters=N 0.04->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1890 0.25;;(3:principal0).characters=N 0.04->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1898 0.25;;(4:person0).id=100054 0->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1898 0.25;;(4:person0).id=100054 0->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1898 0.25;;(4:person0).id=100054 0->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1889 0.25;;(4:person0).id=100054 0->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1889 0.25;;(4:person0).id=100054 0->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1889 0.25;;(4:person0).id=100054 0->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1898 0.25;;(3:principal0).id=101408 0->(3:principal0).category=writer 0.07
+person.birthYear=1889 0.25;;(3:principal0).id=101408 0->(3:principal0).category=writer 0.07
+person.birthYear=1898 0.25;;(3:principal0).id=10025 0->(3:principal0).category=writer 0.07
+person.birthYear=1889 0.25;;(3:principal0).id=10025 0->(3:principal0).category=writer 0.07
+person.birthYear=1940 0.25;;(3:principal0).id=9645 0->(4:person0).id=100054 0
+person.birthYear=1898 0.25;;(3:principal0).id=9645 0->(4:person0).id=100054 0
+person.birthYear=1898 0.25;;(3:principal0).id=9645 0->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1898 0.25;;(3:principal0).id=9645 0->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1898 0.25;;(3:principal0).id=9645 0->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1904 0.25;;(3:principal0).id=9645 0->(4:person0).id=100054 0
+person.birthYear=1889 0.25;;(3:principal0).id=9645 0->(4:person0).id=100054 0
+person.birthYear=1889 0.25;;(3:principal0).id=9645 0->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1889 0.25;;(3:principal0).id=9645 0->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1889 0.25;;(3:principal0).id=9645 0->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1898 0.25;;(3:principal0).id=109837 0->(3:principal0).category=writer 0.07
+person.birthYear=1898 0.25;;(3:principal0).id=109837 0->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1898 0.25;;(3:principal0).id=109837 0->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1889 0.25;;(3:principal0).id=109837 0->(3:principal0).category=writer 0.07
+person.birthYear=1889 0.25;;(3:principal0).id=109837 0->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1889 0.25;;(3:principal0).id=109837 0->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1940 0.25;;(3:principal0).id=108659 0->(4:person0).id=100054 0
+person.birthYear=1898 0.25;;(3:principal0).id=108659 0->(4:person0).id=100054 0
+person.birthYear=1898 0.25;;(3:principal0).id=108659 0->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1898 0.25;;(3:principal0).id=108659 0->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1898 0.25;;(3:principal0).id=108659 0->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1904 0.25;;(3:principal0).id=108659 0->(4:person0).id=100054 0
+person.birthYear=1889 0.25;;(3:principal0).id=108659 0->(4:person0).id=100054 0
+person.birthYear=1889 0.25;;(3:principal0).id=108659 0->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1889 0.25;;(3:principal0).id=108659 0->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1889 0.25;;(3:principal0).id=108659 0->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1940 0.25;;(3:principal0).id=119379 0->(4:person0).id=100054 0
+person.birthYear=1898 0.25;;(3:principal0).id=119379 0->(4:person0).id=100054 0
+person.birthYear=1898 0.25;;(3:principal0).id=119379 0->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1898 0.25;;(3:principal0).id=119379 0->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1898 0.25;;(3:principal0).id=119379 0->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1904 0.25;;(3:principal0).id=119379 0->(4:person0).id=100054 0
+person.birthYear=1889 0.25;;(3:principal0).id=119379 0->(4:person0).id=100054 0
+person.birthYear=1889 0.25;;(3:principal0).id=119379 0->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1889 0.25;;(3:principal0).id=119379 0->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1889 0.25;;(3:principal0).id=119379 0->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1940 0.25;;(3:principal0).id=100053 0->(4:person0).id=100054 0
+person.birthYear=1898 0.25;;(3:principal0).id=100053 0->(4:person0).id=100054 0
+person.birthYear=1898 0.25;;(3:principal0).id=100053 0->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1898 0.25;;(3:principal0).id=100053 0->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1898 0.25;;(3:principal0).id=100053 0->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1904 0.25;;(3:principal0).id=100053 0->(4:person0).id=100054 0
+person.birthYear=1889 0.25;;(3:principal0).id=100053 0->(4:person0).id=100054 0
+person.birthYear=1889 0.25;;(3:principal0).id=100053 0->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1889 0.25;;(3:principal0).id=100053 0->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1889 0.25;;(3:principal0).id=100053 0->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1940 0.25;;(3:principal0).id=34748 0->(4:person0).id=100054 0
+person.birthYear=1898 0.25;;(3:principal0).id=34748 0->(4:person0).id=100054 0
+person.birthYear=1898 0.25;;(3:principal0).id=34748 0->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1898 0.25;;(3:principal0).id=34748 0->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1898 0.25;;(3:principal0).id=34748 0->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1904 0.25;;(3:principal0).id=34748 0->(4:person0).id=100054 0
+person.birthYear=1889 0.25;;(3:principal0).id=34748 0->(4:person0).id=100054 0
+person.birthYear=1889 0.25;;(3:principal0).id=34748 0->(4:person1).birthYear=(4:person0).birthYear 0.33
+person.birthYear=1889 0.25;;(3:principal0).id=34748 0->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1889 0.25;;(3:principal0).id=34748 0->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1885 0.25;;(3:principal0).id=109837 0->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1885 0.25;;(3:principal0).id=109837 0->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1878 0.25;;(3:principal0).id=109837 0->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1878 0.25;;(3:principal0).id=109837 0->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1887 0.25;;(3:principal0).id=109837 0->(4:person1).deathYear=(4:person0).deathYear 0.5
+person.birthYear=1887 0.25;;(3:principal0).id=109837 0->(4:person1).deathYear=(4:person0).deathYear 0.75
+person.birthYear=1898 0.25;;(4:person1).deathYear=(4:person0).deathYear 0.25->(3:principal0).category=writer 0.07
+person.birthYear=1889 0.25;;(4:person1).deathYear=(4:person0).deathYear 0.25->(3:principal0).category=writer 0.07
+person.primaryProfession=actor 0.17;;(3:principal0).characters=[O'Flynn's Groom] 0.04->(3:principal0).id=108659 0
+person.primaryProfession=actor 0.17;;(3:principal0).characters=[Heinie] 0.04->(3:principal0).id=34748 0
+person.primaryProfession=actor 0.17;;(3:principal0).characters=[Angus McAxle] 0.04->(3:principal0).id=119379 0
+person.primaryProfession=actor 0.17;;(3:principal0).characters=[Shorty] 0.04->(3:principal0).id=9645 0
+person.primaryProfession=actor 0.17;;(3:principal0).characters=[Bat Smith] 0.04->(3:principal0).id=100053 0
+(3:principal0).category=actor 0.07;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1890 0.25
+(3:principal0).category=writer 0.07;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1898 0.25
+(3:principal0).category=writer 0.07;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1889 0.25
+(3:principal0).category=actor 0.07;;(4:person1).birthYear=(4:person0).birthYear 0.5->(4:person1).deathYear=(4:person0).deathYear 0.5
+(3:principal0).category=actor 0.07;;(4:person1).birthYear=(4:person0).birthYear 0.5->(4:person1).deathYear=(4:person0).deathYear 0.75
+(3:principal0).job=contributing writer 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1885 0.25
+(3:principal0).job=contributing writer 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1878 0.25
+(3:principal0).job=contributing writer 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1887 0.25
+(3:principal0).job=contributing writer 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1898 0.25
+(3:principal0).job=contributing writer 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1889 0.25
+(3:principal0).job=original story and screenplay 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1885 0.25
+(3:principal0).job=original story and screenplay 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1878 0.25
+(3:principal0).job=original story and screenplay 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1887 0.25
+(3:principal0).job=original story and screenplay 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1898 0.25
+(3:principal0).job=original story and screenplay 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1889 0.25
+(3:principal0).job=original story and screenplay 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).deathYear=(4:person0).deathYear 0.25
+(3:principal0).job=original story and screenplay 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).deathYear=(4:person0).deathYear 0.5
+(3:principal0).job=original story and screenplay 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).deathYear=(4:person0).deathYear 0.75
+(3:principal0).job=N 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1890 0.25
+(3:principal0).job=editorial director 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1885 0.25
+(3:principal0).job=editorial director 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1878 0.25
+(3:principal0).job=editorial director 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1887 0.25
+(3:principal0).job=editorial director 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1898 0.25
+(3:principal0).job=editorial director 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1889 0.25
+(3:principal0).job=contributing writer 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.17->(4:person1).deathYear=(4:person0).deathYear 0.5
+(3:principal0).job=contributing writer 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.17->(4:person1).deathYear=(4:person0).deathYear 0.75
+(3:principal0).job=editorial director 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.17->(4:person1).deathYear=(4:person0).deathYear 0.5
+(3:principal0).job=editorial director 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.17->(4:person1).deathYear=(4:person0).deathYear 0.75
+(3:principal0).job=original story and screenplay 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.5->(4:person1).deathYear=(4:person0).deathYear 0.5
+(3:principal0).job=original story and screenplay 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.5->(4:person1).deathYear=(4:person0).deathYear 0.75
+(3:principal0).job=N 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.5->(4:person1).deathYear=(4:person0).deathYear 0.5
+(3:principal0).job=N 0.3;;(4:person1).birthYear=(4:person0).birthYear 0.5->(4:person1).deathYear=(4:person0).deathYear 0.75
+(3:principal0).characters=[O'Flynn's Groom] 0.04;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.07
+(3:principal0).characters=[O'Flynn's Groom] 0.04;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.15
+(3:principal0).characters=[O'Flynn's Groom] 0.04;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.22
+(3:principal0).characters=[Heinie] 0.04;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.07
+(3:principal0).characters=[Heinie] 0.04;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.15
+(3:principal0).characters=[Heinie] 0.04;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.22
+(3:principal0).characters=[Angus McAxle] 0.04;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.07
+(3:principal0).characters=[Angus McAxle] 0.04;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.15
+(3:principal0).characters=[Angus McAxle] 0.04;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.22
+(3:principal0).characters=[Shorty] 0.04;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.07
+(3:principal0).characters=[Shorty] 0.04;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.15
+(3:principal0).characters=[Shorty] 0.04;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.22
+(3:principal0).characters=[Bat Smith] 0.04;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.07
+(3:principal0).characters=[Bat Smith] 0.04;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.15
+(3:principal0).characters=[Bat Smith] 0.04;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.22
+(4:person0).id=10019 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1898 0.25
+(4:person0).id=10019 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1889 0.25
+(3:principal0).id=101408 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1885 0.25
+(3:principal0).id=101408 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1878 0.25
+(3:principal0).id=101408 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1887 0.25
+(3:principal0).id=101408 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1898 0.25
+(3:principal0).id=101408 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1889 0.25
+(3:principal0).id=10025 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1885 0.25
+(3:principal0).id=10025 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1878 0.25
+(3:principal0).id=10025 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1887 0.25
+(3:principal0).id=10025 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1898 0.25
+(3:principal0).id=10025 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1889 0.25
+(3:principal0).id=109837 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1885 0.25
+(3:principal0).id=109837 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1878 0.25
+(3:principal0).id=109837 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1887 0.25
+(3:principal0).id=109837 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1898 0.25
+(3:principal0).id=109837 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->person.birthYear=1889 0.25
+(3:principal0).id=109837 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).deathYear=(4:person0).deathYear 0.25
+(3:principal0).id=109837 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).deathYear=(4:person0).deathYear 0.5
+(3:principal0).id=109837 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).deathYear=(4:person0).deathYear 0.75
+(3:principal0).id=101408 0;;(4:person1).birthYear=(4:person0).birthYear 0.17->(4:person1).deathYear=(4:person0).deathYear 0.5
+(3:principal0).id=101408 0;;(4:person1).birthYear=(4:person0).birthYear 0.17->(4:person1).deathYear=(4:person0).deathYear 0.75
+(3:principal0).id=10025 0;;(4:person1).birthYear=(4:person0).birthYear 0.17->(4:person1).deathYear=(4:person0).deathYear 0.5
+(3:principal0).id=10025 0;;(4:person1).birthYear=(4:person0).birthYear 0.17->(4:person1).deathYear=(4:person0).deathYear 0.75
+(3:principal0).id=109837 0;;(4:person1).birthYear=(4:person0).birthYear 0.5->(4:person1).deathYear=(4:person0).deathYear 0.5
+(3:principal0).id=109837 0;;(4:person1).birthYear=(4:person0).birthYear 0.5->(4:person1).deathYear=(4:person0).deathYear 0.75
+(3:principal0).id=9645 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.07
+(3:principal0).id=9645 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.15
+(3:principal0).id=9645 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.22
+(3:principal0).id=108659 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.07
+(3:principal0).id=108659 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.15
+(3:principal0).id=108659 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.22
+(3:principal0).id=119379 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.07
+(3:principal0).id=119379 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.15
+(3:principal0).id=119379 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.22
+(3:principal0).id=100053 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.07
+(3:principal0).id=100053 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.15
+(3:principal0).id=100053 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.22
+(3:principal0).id=34748 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.07
+(3:principal0).id=34748 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.15
+(3:principal0).id=34748 0;;(4:person1).birthYear=(4:person0).birthYear 0.33->(4:person1).primaryProfession=(4:person0).primaryProfession 0.22
+(4:person1).birthYear=(4:person0).birthYear 0.33;;(4:person1).deathYear=(4:person0).deathYear 0.25->person.birthYear=1885 0.25
+(4:person1).birthYear=(4:person0).birthYear 0.33;;(4:person1).deathYear=(4:person0).deathYear 0.25->person.birthYear=1878 0.25
+(4:person1).birthYear=(4:person0).birthYear 0.33;;(4:person1).deathYear=(4:person0).deathYear 0.25->person.birthYear=1887 0.25
+(4:person1).birthYear=(4:person0).birthYear 0.33;;(4:person1).deathYear=(4:person0).deathYear 0.25->person.birthYear=1898 0.25
+(4:person1).birthYear=(4:person0).birthYear 0.33;;(4:person1).deathYear=(4:person0).deathYear 0.25->person.birthYear=1889 0.25
+;;before: dependency number 845
+;;after: dependency number 409
+;;time cost: 1.7100591659545898 s

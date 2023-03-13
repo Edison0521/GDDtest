@@ -1,0 +1,28 @@
+y.Name=F20 0.24->y.Year=2019 0
+y.Genre=Racing 0->y.Year=2018 0
+y.Genre=Soccer 0->(0:x0).Name=EA 0
+y.Year=2019 0->(1:y1).Name=(1:y0).Name 0.03
+y.Year=2019 0->(1:y1).Name=(1:y0).Name 0.07
+y.Year=2019 0->(1:y1).Name=(1:y0).Name 0.1
+y.Year=2018 0->(0:x0).Name=GL 0
+(0:x0).Name=GL 0->(1:y0).Price=50 1
+(0:x0).Name=EA 0->(0:x0).id=3 0
+(1:y0).Price=60 1->(1:y0).id=8 0
+(1:y0).Price=55 1->(1:y0).id=7 0
+(1:y0).Price=50 1->(0:x0).id=1 0
+(0:x0).id=1 0->(1:y0).id=4 0
+(0:x0).id=3 0->(1:y1).Genre=(1:y0).Genre 0
+(1:y0).id=8 0->y.Genre=Soccer 0
+(1:y0).id=7 0->y.Genre=Soccer 0
+(1:y0).id=4 0->(1:y1).Year=(1:y0).Year 0
+(1:y1).Name=(1:y0).Name 0.03->(1:y0).Price=55 1
+(1:y1).Name=(1:y0).Name 0.03->(1:y1).Year=(1:y0).Year 0
+(1:y1).Name=(1:y0).Name 0.07->(1:y0).Price=55 1
+(1:y1).Name=(1:y0).Name 0.07->(1:y1).Year=(1:y0).Year 0
+(1:y1).Name=(1:y0).Name 0.1->(1:y0).Price=55 1
+(1:y1).Name=(1:y0).Name 0.1->(1:y1).Year=(1:y0).Year 0
+(1:y1).Genre=(1:y0).Genre 0->(1:y1).Year=(1:y0).Year 1
+(1:y1).Year=(1:y0).Year 0->(1:y1).Genre=(1:y0).Genre 0
+;;before: dependency number 113
+;;after: dependency number 25
+;;time cost: 0.24365592002868652 s

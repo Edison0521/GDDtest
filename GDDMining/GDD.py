@@ -21,13 +21,26 @@ class Blocks(object):
         return "%s %s %s %s" % (self.Namelist, self.name, self.distance, self.tuples)
 
 class node_s(object):
-    def __init__(self, id, name, attribute):
+    def __init__(self, id, name, attribute,source_name):
         self.id = id
         self.name = name
         self.attribute = attribute
+        self.sname = source_name
 
     def __repr__(self):
-        return "%s %s %s" % (self.id, self.name, self.attribute)
+        return "%s %s %s %s" % (self.id, self.name, self.attribute,self.sname)
+
+
+class sattr(object):
+    def __init__(self, id, name, attribute,source_name,tname):
+        self.id = id
+        self.name = name
+        self.attribute = attribute
+        self.sname = source_name
+        self.tname = tname
+
+    def __repr__(self):
+        return "%s %s %s %s %s" % (self.id, self.name, self.attribute,self.sname,self.tname)
 
 
 class snode(object):
