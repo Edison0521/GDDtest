@@ -692,13 +692,25 @@ def clean_redundant(dependency_set, fileout):
                 w1 = w[0]
                 w2 = w[-1]
                 if w2 == s2:
-                    left = s1.replace(';;', ' ').split(' ')
-                    right = w1.replace(';;', ' ').split(' ')
-                    if len(left) == len(right) and left[::2] == right[::2]:
-                        for i in range(len(left)):
-                            if i % 2 == 1 and float(left[i]) < float(right[i]) and dependency1 in dependency_set_fu:
-                                dependency_set_fu.remove(dependency1)
-                                break
+                    ary = s1.split(';;')
+                    aryy = w1.split(';;')
+                    if len(ary) == len(aryy):
+                        s11 = ''
+                        w11 = ''
+                        for i in range(len(ary)):
+                            ary[i] = ary[i][::-1].replace(' ', '\t', 1)[::-1]
+                            s11 = s11 + ary[i] + '\t'
+                            aryy[i] = aryy[i][::-1].replace(' ', '\t', 1)[::-1]
+                            w11 = w11 + aryy[i] + '\t'
+                        left = s11.split('\t')
+                        right = w11.split('\t')
+                        if len(left) == len(right) and left[::2] == right[::2]:
+                            for i in range(len(left)):
+                                if i % 2 == 1 and float(left[i]) < float(right[i]) and dependency1 in dependency_set_fu:
+                                    dependency_set_fu.remove(dependency1)
+                                    break
+                    else:
+                        continue
     res_dict = {}
     rel_dict = {}
     for dependency in dependency_set_fu:
@@ -719,8 +731,10 @@ def clean_redundant(dependency_set, fileout):
         valid_value = copy.deepcopy(value)
         for i in range(len(value)):
             for j in range(len(value)):
-                ary = value[i].split(' ')
-                aryy = value[j].split(' ')
+                left = value[i][::-1].replace(' ', '\t', 1)[::-1]
+                right = value[j][::-1].replace(' ', '\t', 1)[::-1]
+                ary = left.split('\t')
+                aryy = right.split('\t')
                 if ary[0] != aryy[0] or i == j:
                     continue
                 if float(aryy[1]) > float(ary[1]) and value[j] in valid_value:
@@ -780,15 +794,15 @@ def clean_redundant(dependency_set, fileout):
 if __name__ == "__main__":
     #g = glob.glob('*.txt')
     #for gi in g:
-        filename = 'produce_Table2.txt'
-        files = filename + 'result2.txt'
+        filename = 'produce_Table3.txt'
+        files = filename + 'result3.txt'
         file = pd.read_csv(filename, delimiter=";;", engine='python')
         fileout = open(files, 'w', encoding='utf-8')
         df = pd.DataFrame(file)
         title = []
         for cloum_name in df.columns:
             title.append(df[cloum_name].name)
-        con = 1
+        con = 0.9
         start_time = time.time()
         thresord = int(con * len(df))
         candite = []  # contains the every attribute with it items
